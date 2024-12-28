@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-  @apply text-2xl md:text-4xl;
+  @apply text-2xl md:text-4xl md:whitespace-nowrap;
 }
 
 h4 {
@@ -41,5 +41,17 @@ p {
 }
 
 .chip {
-  @apply rounded-full border py-0.5 px-2.5 text-center transition-all shadow-sm border-gray-50 text-base text-gray-50;
+  @apply rounded-full border py-0.5 px-2.5 text-center transition-all shadow-sm border-gray-50 text-sm uppercase text-gray-50;
+}
+
+.projectSection {
+  @apply space-y-8 xl:space-y-0 xl:flex xl:flex-row;
+}
+
+.projectSectionLeft {
+  @apply text-lg w-1/3 uppercase font-bold;
+}
+
+.projectSectionRight {
+  @apply space-y-8 w-2/3;
 }

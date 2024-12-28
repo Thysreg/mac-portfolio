@@ -19,15 +19,15 @@ function Intro() {
                 className="text-gray-400 hover:text-gray-50">For everyone
         </button>
         <button onClick={() =>
-                handleButtonClick("Recruiters")}
+                handleButtonClick("I’m a product designer with 4 years of experience in brand and digital product, contributing to both innovative startups and established companies.")}
                 className="text-gray-400 hover:text-gray-50">Recruiters
         </button>
         <button onClick={() =>
-                handleButtonClick("Product Designers")}
+                handleButtonClick("I’m a systems thinker with an uncompromising eye for quality. From refining processes to crafting pixel-perfect designs, I thrive on collaboration and innovation.")}
                 className="text-gray-400 hover:text-gray-50">Product Designers
         </button>
         <button onClick={() =>
-                handleButtonClick("Engineers")}
+                handleButtonClick("With a technical mindset and engineering background, I’ve built multiple websites, including this portfolio, and developed a mobile app, bridging design and development seamlessly.")}
                 className="text-gray-400 hover:text-gray-50">Engineers
         </button>
       </div>

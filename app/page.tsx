@@ -6,7 +6,7 @@ import Nav from '@/components/nav';
 
 export default function Home() {
 
-  const sections = [ "Intro", "Work", "Values", "Background", "Contact" ];
+  const sections = [ "Intro", "Work", "Values", "Background" ];
 
 
   return (
@@ -25,7 +25,7 @@ export default function Home() {
         <div className="hidden md:block col-span-2"></div>
 
         {/*  Main Scrolling Content */}
-        <div className="col-span-4 md:col-span-7">
+        <div className="col-span-4 md:col-span-7 pb-36">
           <div className="space-y-8">
 
             {/*  Intro */}
@@ -34,30 +34,28 @@ export default function Home() {
             {/*  Work */}
             <section id="Work" className="md:pt-60 space-y-36 md:space-y-72">
               {/* BookingPad */}
-              <Project
+              {/* <Project
                 project='BookingPad'
                 chip1='User Research'
                 chip2='BSB'
                 chip3='Product Design'
                 chip4='Prototype'
                 chip5='Web App'
-                role='UX Designer'
                 link='/bookingpad'
                 src='/ven-t-mockups.png'
                 alt='ven-t app mockups'
-              />
+              /> */}
 
               {/* Ven-T */}
               <Project
                 project='Ven-t'
                 chip1='Development'
-                chip2='Case study'
-                chip3='Research'
+                chip2='Research'
+                chip3='Mobile App'
                 chip4='Prototype'
                 chip5='Test'
-                role='Product Designer & Developer'
                 link='/vent'
-                src='/ven-t-mockups.png'
+                src='/ven-t-mockups-isometric.jpg'
                 alt='ven-t app mockups'
               />
 
@@ -68,8 +66,7 @@ export default function Home() {
                 chip2='Case study'
                 chip3='Research'
                 chip4='Design'
-                chip5='Test'
-                role='UI/UX Designer'
+                chip5='Mobile App'
                 link='/pravel'
                 src='/pravel-mockup-1080.jpg'
                 alt='pravel app'
@@ -82,8 +79,7 @@ export default function Home() {
                 chip2='Case study'
                 chip3='Gov'
                 chip4='Prototype'
-                chip5='Test'
-                role='UI/UX Designer'
+                chip5='Website'
                 link='/usda'
                 src='/usda-portada-mockups-1000.jpg'
                 alt='USDA concept redesign'
@@ -164,7 +160,7 @@ export default function Home() {
             </section>
 
             {/* Contact */}
-            <section id="Contact" className="pt-36 md:pt-48">
+            {/* <section id="Contact" className="pt-36 md:pt-48">
               <h2 className="md:pr-48">
                 Intuitive and impactful solutions that balance creativity, empathy, and efficiency.
               </h2>
@@ -174,7 +170,7 @@ export default function Home() {
               <p className="md:pl-72">
                 Collaboration and adaptability are at the heart of my process, having worked with cross-functional teams in industries ranging from SaaS to retail. I thrive on solving complex challenges and ensuring every design not only meets user needs but also aligns with business goals.
               </p>
-            </section>
+            </section> */}
           </div>
         </div>
         </main>

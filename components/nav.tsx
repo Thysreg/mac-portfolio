@@ -24,7 +24,23 @@ const Nav = ({sections = [] }: MenuProps) => {
 
   return (
     <nav className="flex-no-wrap fixed top-0 z-10 flex w-full items-center justify-between text-gray-50 px-4 md:px-12 my-8">
-        <a href="./" className="text-lg text-gray-400 hover:text-gray-50">JM</a>
+<a 
+  href="./" 
+  className="relative inline-block text-lg text-gray-400 group overflow-hidden"
+>
+  {/* Visible text */}
+  <span 
+    className="inline-block transition-opacity duration-300 ease-in-out group-hover:tracking-wide"
+  >
+    J<span className="hidden group-hover:inline-block">aime </span>M
+    <span className="hidden group-hover:inline-block">Carron</span>
+  </span>
+</a>
+
+
+
+
+
         {/* Desktop Icons */}
         <div className="hidden md:flex items-center space-x-4">
 
