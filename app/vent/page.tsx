@@ -51,7 +51,7 @@ function Vent() {
                 </h2>
                 <div className='projectSection'>
                 <h3 className='text-lg w-1/3'>
-                    <b>THE PROBLEM</b>
+                    The Problem
                 </h3>
                 <div className='space-y-8 w-2/3'>
                 <p>
@@ -65,7 +65,7 @@ function Vent() {
 
                 <div className='projectSection'>
                 <h3 className='text-lg w-1/3'>
-                    <b>THE SOLUTION</b>
+                    The Solution
                 </h3>
                 <div className='space-y-8 w-2/3'>
                 <p>
@@ -103,7 +103,7 @@ function Vent() {
                 </h2>
                 <div className='projectSection '>
                 <h3 className='projectSectionLeft'>
-                    <b>USER INSIGHTS</b>
+                    User Insights
                 </h3>
                 <div className='projectSectionRight'>
                 <p>
@@ -119,7 +119,7 @@ function Vent() {
                 </div>
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft text-wrap'>
-                    <b>COMPETITIVE ANALISYS</b>
+                    Competitive Analisys
                 </h3>
                 <p className='projectSectionRight'>
                 While platforms like Fiestas de Asturias and Pella de Ocio share a similar focus, they lacked essential features like maps or event-saving options. Indirect competitors like Google or Eventbrite provide limited information or are tailored more toward ticketed events. This gap reinforced the need for a modern and localized solution.
@@ -135,7 +135,7 @@ function Vent() {
                 </h2>
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
-                    <b>VALUE PROPOSITION</b>
+                    Value Proposition
                 </h3>
                 <div className='projectSectionRight'>
                 <p>
@@ -151,7 +151,7 @@ function Vent() {
                 </div>
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
-                    <b>DESIGN PROCESS</b>
+                    Design Process
                 </h3>
                 <div className='projectSectionRight'>
                 <h4>
@@ -223,7 +223,7 @@ function Vent() {
                 </h2>
                 <div className='projectSection'>
                   <h3 className='projectSectionLeft'>
-                    <b>BETA VERSION</b>
+                    Beta Version
                   </h3>
                   <div className='projectSectionRight'>
                     <p>
@@ -249,7 +249,7 @@ function Vent() {
                 </h2>
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
-                    <b>NEXT STEPS</b>
+                    Next Steps
                 </h3>
                 <div className='projectSectionRight'>
                 <p>
