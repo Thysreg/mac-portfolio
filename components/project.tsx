@@ -33,7 +33,7 @@ function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", 
               </div>
                 
                 <div className="hidden md:block">
-                  <div className="bg-gray-50 text-xl rounded-sm px-4 py-1 text-center text-gray-900 whitespace-nowrap">
+                  <div className="bg-gray-800 dark:bg-gray-50 text-xl rounded-sm px-4 py-1 text-center text-gray-50 dark:text-gray-900 whitespace-nowrap">
                     View work
                   </div>
                 </div>
@@ -44,13 +44,13 @@ function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", 
           <Image
             src={src}
             fill
-            className=" rounded-lg object-cover"
+            className=" rounded-md object-cover"
             alt={alt}
             priority
           />
         </div>
         {/* Mobile button */}
-        <div className="md:hidden mt-4 bg-gray-50 text-xl rounded-sm px-8 py-1 text-center text-gray-900">
+        <div className="md:hidden mt-4 bg-gray-800 dark:bg-gray-50 text-xl rounded-sm px-8 py-1 text-center text-gray-50 dark:text-gray-900">
           View work
         </div>              
     </Link>

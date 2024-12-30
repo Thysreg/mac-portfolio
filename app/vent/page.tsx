@@ -50,10 +50,10 @@ function Vent() {
                     About the project
                 </h2>
                 <div className='projectSection'>
-                <h3 className='text-lg w-1/3'>
+                <h3 className='projectSectionLeft'>
                     The Problem
                 </h3>
-                <div className='space-y-8 w-2/3'>
+                <div className='projectSectionRight'>
                 <p>
                 Tourists and vacationers in Asturias often struggle to discover local events near their location. Without a centralized source of reliable information, they rely on word-of-mouth, risking missed opportunities for events they might enjoy.
                 </p>
@@ -64,10 +64,10 @@ function Vent() {
                 </div>
 
                 <div className='projectSection'>
-                <h3 className='text-lg w-1/3'>
+                <h3 className='projectSectionLeft'>
                     The Solution
                 </h3>
-                <div className='space-y-8 w-2/3'>
+                <div className='projectSectionRight'>
                 <p>
                 Ven-T is an event-listing app designed to connect people with events around them while promoting tourism in rural Asturias. The app provides a user-friendly platform for tourists and locals to explore events and helps event planners reach a broader audience through modern features such as:
                 </p>

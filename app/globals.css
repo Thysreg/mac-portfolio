@@ -41,7 +41,7 @@ p {
 }
 
 .chip {
-  @apply rounded-full border py-0.5 px-2.5 text-center transition-all shadow-sm border-gray-50 text-sm uppercase text-gray-50;
+  @apply rounded-full border py-0.5 px-2.5 text-center transition-all shadow-sm border-gray-900 dark:border-gray-50 text-sm uppercase text-gray-900 dark:text-gray-50;
 }
 
 .projectSection {

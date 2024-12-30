@@ -4,11 +4,11 @@ function IconMail() {
         <a
             href="mailto:jaimemccarron@gmail.com"
             target="blank"
-            className="flex items-center justify-center w-12 h-12 bg-gray-50 rounded-full hover:bg-gray-300"
+            className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-900 dark:bg-gray-50  hover:bg-gray-500 dark:hover:bg-gray-300"
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6 stroke-gray-900"
+                className="w-6 h-6 stroke-gray-50 dark:stroke-gray-900"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="2"

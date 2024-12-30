@@ -21,12 +21,12 @@ interface ProjectColumns {
 
 function ProjectOverview({role1, role2, role3, role4, deliverable1, deliverable2, deliverable3, deliverable4, tool1, tool2, tool3, tool4 }:ProjectColumns) {
   return (
-    <div className='flex flex-row justify-between'>
-        <div className='flex flex-col space-y-4'>
+    <div className='flex flex-col md:flex-row justify-between space-y-8 text-nowrap'>
+        <div className='flex flex-col space-y-2 md:space-y-4'>
             <h3 className='text-xl'>
-                <b>MY ROLE</b>
+                <b>ROLE</b>
             </h3>
-            <div className='space-y-1 text-gray-300'>
+            <div className='space-y-1 text-gray-600 dark:text-gray-300'>
                 <p>{role1}</p>
                 <p>{role2}</p>
                 <p>{role3}</p>
@@ -34,11 +34,11 @@ function ProjectOverview({role1, role2, role3, role4, deliverable1, deliverable2
             </div>
             
         </div>
-        <div className='flex flex-col space-y-4'>
+        <div className='flex flex-col space-y-2 md:space-y-4'>
             <h3 className='text-xl'>
                 <b>DELIVERABLES</b>
             </h3>
-            <div className='space-y-1 text-gray-300'>
+            <div className='space-y-1 text-gray-600 dark:text-gray-300'>
             <p>{deliverable1}</p>
             <p>{deliverable2}</p>
             <p>{deliverable3}</p>
@@ -46,11 +46,11 @@ function ProjectOverview({role1, role2, role3, role4, deliverable1, deliverable2
             </div>           
         </div>
 
-        {/* <div className='flex flex-col space-y-4'>
+        {/* <div className='flex flex-col space-y-2 md:space-y-4'>
             <h3 className='text-xl'>
                 <b>TEAM</b>
             </h3>
-            <div className='space-y-1 text-gray-300'>
+            <div className='space-y-1 text-gray-600 dark:text-gray-300'>
             <p>{team1}</p>
             <p>{team2}</p>
             <p>{team3}</p>
@@ -58,11 +58,11 @@ function ProjectOverview({role1, role2, role3, role4, deliverable1, deliverable2
             </div>
         </div> */}
 
-        <div className='flex flex-col space-y-4'>
+        <div className='flex flex-col space-y-2 md:space-y-4'>
             <h3 className='text-xl'>
                 <b>TOOLS</b>
             </h3>
-            <div className='space-y-1 text-gray-300'>
+            <div className='space-y-1 text-gray-600 dark:text-gray-300'>
             <p>{tool1}</p>
             <p>{tool2}</p>
             <p>{tool3}</p>

@@ -23,10 +23,10 @@ const Nav = ({sections = [] }: MenuProps) => {
   };
 
   return (
-    <nav className="flex-no-wrap fixed top-0 z-10 flex w-full items-center justify-between text-gray-50 px-4 md:px-12 my-8">
+    <nav className="flex-no-wrap fixed top-0 z-10 flex w-full items-center justify-between text-gray-800 dark:text-gray-50 px-4 md:px-12 my-8">
 <a 
   href="./" 
-  className="relative inline-block text-lg text-gray-400 group overflow-hidden"
+  className="relative inline-block text-lg text-gray-800 dark:text-gray-400 group overflow-hidden"
 >
   {/* Visible text */}
   <span 
@@ -56,7 +56,7 @@ const Nav = ({sections = [] }: MenuProps) => {
             {!isMenuOpen && (
               <button
                 onClick={() => setIsMenuOpen(true)}
-                className="text-gray-50"
+                className="text-gray-900 dark:text-gray-50"
                 aria-label="Open Menu"
                 >
                   <HiOutlineMenuAlt4 size={20}/>
@@ -88,7 +88,7 @@ const Nav = ({sections = [] }: MenuProps) => {
               ))}
               </div>
               {/* Social Icons for Mobile */}
-              <div className="flex flex-col space-y-4">
+              <div className="flex flex-row space-x-4">
                 <IconMail />
                 <IconLinkedin />
                 <IconInstagram />

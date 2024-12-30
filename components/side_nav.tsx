@@ -45,8 +45,8 @@ function SideNav({sections=[]}: SideNavProps) {
           <button
             key={section}
             onClick={() => handleScroll(section)}
-            className={`text-gray-400 hover:text-gray-50 ${
-              activeSection === section ? "font-bold text-gray-50" : ""
+            className={`text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50 ${
+              activeSection === section ? "font-bold text-gray-800 dark:text-gray-50" : ""
             }`}
             >
             {section}
