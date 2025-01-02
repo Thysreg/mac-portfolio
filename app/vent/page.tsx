@@ -71,11 +71,11 @@ function Vent() {
                 <p>
                 Ven-T is an event-listing app designed to connect people with events around them while promoting tourism in rural Asturias. The app provides a user-friendly platform for tourists and locals to explore events and helps event planners reach a broader audience through modern features such as:
                 </p>
-                <p>
+                <ul className='list-disc list-inside'>
                   <li>A searchable map of event locations.</li>
                   <li>Options to save favorite events.</li>
                   <li>Reviews and information from past attendees.</li>
-                </p>
+                </ul>
                 <p>
                 Ven-T aimed to fill the gap in the market by offering a seamless experience for both users and event organizers.
                 </p>
@@ -109,11 +109,11 @@ function Vent() {
                 <p>
                 Through user interviews, several key patterns emerged:
                 </p>
-                <p>
+                <ul className='list-disc list-inside'>
                   <li>People often rely on acquaintances or local contacts to learn about traditional events.</li>
                   <li>Event information is rarely sought online due to unreliable or incomplete results.</li>
                   <li>Users expressed interest in discovering diverse events beyond traditional parties.</li>
-                </p>
+                </ul>
                 </div>
                 
                 </div>
@@ -141,11 +141,11 @@ function Vent() {
                 <p>
                 Ven-T bridges the gap between tourists, locals, and event planners by offering a centralized and reliable platform. Key features include:
                 </p>
-                <p>
+                <ul className='list-disc list-inside'>
                   <li>A map-based interface for exploring events.</li>
                   <li>Save-to-favorites functionality.</li>
                   <li>Easy filtering and recommendations based on user behavior.</li>
-                </p>
+                </ul>
                 </div>
                 
                 </div>
@@ -178,11 +178,11 @@ function Vent() {
                 <p>
                 Early sketches explored multiple layouts and filtering options. Iterative design sessions refined the app’s focus, ensuring a simple and intuitive user experience.
                 </p>
-                <p>
+                <ul className='list-disc list-inside'>
                   <li>
                   <b>Initial Prototypes:</b> Early designs included unnecessary features, prioritizing aesthetics over functionality. Feedback and research highlighted the need to streamline the app.
                   </li>
-                  </p>
+                </ul>
                   
                   </div>
                 
@@ -202,11 +202,11 @@ function Vent() {
                 <div className='projectSection'>
                   <div className='projectSectionLeft'>
                   </div>
-                  <p className='projectSectionRight'>
-                  <li>
-                  <b>High-Fidelity Designs:</b> User research informed the final designs, focusing on practical features like filtering, event details, and location-based exploration.
-                  </li>
-                </p>
+                  <ul className='projectSectionRight list-disc list-inside'>
+                    <li>
+                      <b>High-Fidelity Designs:</b> User research informed the final designs, focusing on practical features like filtering, event details, and location-based exploration.
+                    </li>
+                  </ul>
                 </div>
                   
                 <ProjectImage
@@ -252,13 +252,13 @@ function Vent() {
                     Next Steps
                 </h3>
                 <div className='projectSectionRight'>
-                <p>
+                <ul className='list-disc list-inside'>
                 <li> User behavior-based event recommendations. </li>
                   <li>Advanced filtering options.</li>
                   <li>Features like attendee counters and cluster markers for easier navigation.</li>
                   <li>Social media integration and personalized profiles.</li>
                   <li>Monetization through event promotions and business advertisements.</li>
-                </p>
+                </ul>
                   
 
                 <p>

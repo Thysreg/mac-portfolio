@@ -41,7 +41,7 @@ function USDA() {
             tool3='Illustrator'
             />
           {/* About */}
-          <section id="About" className="space-y-8 pt-60">
+          <section id="About" className="space-y-8 pt-24 md:pt-60">
                 <h2>
                     About the project
                 </h2>
@@ -56,11 +56,11 @@ function USDA() {
                 <h4>
                 Key Usability Issues:
                 </h4>
-                <p>
+                <ul className='list-disc list-inside'>
                     <li>Subcategories are unclear in the navigation menu, complicating access to specific information.</li>
                     <li>The search function lacks robust filtering options, such as by title, category, or date range.</li>
                     <li>Some important pages, like the USDA Farmers Market, are difficult to locate directly from the main menu.</li>
-                </p>
+                </ul>
                 </div>
                 </div>
                 
@@ -71,11 +71,11 @@ function USDA() {
                 <div className='projectSectionRight'>
                 <p>
                 The redesign focuses on simplifying navigation, enhancing the search functionality, and modernizing the overall look of the website while maintaining its recognizable identity. Key improvements include:                </p>
-                <p>
+                <ul className='list-disc list-inside'>
                   <li>A reorganized top navigation bar with clearer categories and subcategories.</li>
                   <li>Enhanced prominence and functionality of the search bar.</li>
                   <li>A responsive design for seamless usability across desktop and mobile platforms.</li>
-                </p>
+                </ul>
                 </div>
                 
                 </div>
@@ -89,7 +89,7 @@ function USDA() {
             </section>
 
             {/* Research */}
-            <section id="Research" className="space-y-8 pt-60">
+            <section id="Research" className="space-y-8 pt-24 md:pt-60">
                 <h2>
                     Research
                 </h2>
@@ -137,7 +137,7 @@ function USDA() {
                 <h4>
                     Tasks & Findings:
                 </h4>
-                <p>
+                <ul className='list-disc list-inside'>
                 <li>Locate crop coexistence fact sheets: <br/>
                     <b>Issue:</b> Subcategories in the navigation menu are unclear, making it difficult to find specific topics.
                 </li>
@@ -149,7 +149,7 @@ function USDA() {
                 <br/>
                 <li> Navigate to the Farmers Market page: <br/>
                 <b>Issue:</b> This page is not accessible from the main navigation bar.</li>
-                </p>
+                </ul>
                     </div>
                 </div>
                 
@@ -175,7 +175,7 @@ function USDA() {
             </section>
 
             {/* Design process */}
-            <section id="Design Process" className="space-y-8 pt-60">
+            <section id="Design Process" className="space-y-8 pt-24 md:pt-60">
                 <h2>
                     Design Process
                 </h2>
@@ -197,11 +197,11 @@ function USDA() {
                 <h4 className='projectSectionLeft'>Navigation Testing</h4>
                 <div className='projectSectionRight'>
                 
-                <p>
+                <ul className='list-disc list-inside'>
                   <li>Users found the original navigation pane unintuitive, with topics scattered across multiple categories.</li>
                   <li>Dietary health and wildlife information were particularly hard to locate due to inconsistencies in structure and presentation.</li>
                   <li>Mobile users struggled to return to the homepage, often resorting to manually typing the URL.</li>
-                </p>
+                </ul>
                 </div>
                 
                 </div>
@@ -259,11 +259,11 @@ function USDA() {
                 <p>
                 Users responded positively to the redesigned UI, describing it as:
                 </p>
-                <p>
+                <ul className='list-disc list-inside'>
                     <li>User-friendly and visually appealing.</li>
                     <li>Simple and clear in how information is displayed.</li>
                     <li>Easy to navigate, particularly on mobile.</li>
-                </p>
+                </ul>
                 </div>
                 
                 </div>
@@ -271,7 +271,7 @@ function USDA() {
             </section>
 
             {/* Final Design */}
-            <section id="Final Design" className="space-y-8 pt-60">
+            <section id="Final Design" className="space-y-8 pt-24 md:pt-60">
                 <h2>
                     Final Design
                 </h2>
@@ -315,7 +315,7 @@ function USDA() {
             </section>
 
 
-            <section id="User Testing" className="space-y-8 pt-60">
+            <section id="User Testing" className="space-y-8 pt-24 md:pt-60">
                 <h2>
                     User Testing Results
                 </h2>
@@ -331,19 +331,19 @@ function USDA() {
                 <h3 className='projectSectionLeft'>
                     Findings:
                 </h3>
-                <p className='projectSectionRight'>
+                <ul className='list-disc list-inside projectSectionRight'>
                     <li>Younger users favored the search bar, while older users relied more on navigation buttons.</li>
                     <li>Challenges in completing tasks were primarily due to prototype limitations rather than design issues.</li>
                     <li>Users quickly adapted to the redesign, demonstrating ease of use across both desktop and mobile platforms.</li>
                     <li>Feedback highlighted significant improvements over the original website, particularly in finding and accessing information.</li>
-                </p>
+                </ul>
                 </div>
                 
             </section>
 
 
             {/* Reflection */}
-            <section id="Reflection" className="space-y-8 py-60">
+            <section id="Reflection" className="space-y-8 py-24 md:pt-60">
                 <h2>
                     Reflection & Next Steps
                 </h2>
@@ -360,11 +360,11 @@ function USDA() {
                 Future Considerations:
                 </h3>
                 <div className='projectSectionRight'>
-                <p>
-                <li> Develop a more comprehensive prototype with fully linked pages for realistic testing. </li>
+                <ul className='list-disc list-inside'>
+                    <li> Develop a more comprehensive prototype with fully linked pages for realistic testing. </li>
                   <li>Conduct further usability testing to validate findings and refine the design.</li>
                   <li>Explore additional features such as personalized recommendations, improved filtering, and tools to assist users with specific needs.</li>
-                </p>
+                </ul>
                 <p>
                 The USDA website redesign lays a strong foundation for improving access to vital resources, but further iterations and expanded testing will be key to achieving its full potential.
                 </p>

@@ -49,7 +49,7 @@ p {
 }
 
 .projectSectionLeft {
-  @apply md:text-lg md:w-1/3 md:uppercase md:font-bold;
+  @apply text-base md:text-lg md:w-1/3 uppercase font-bold;
 }
 
 .projectSectionRight {

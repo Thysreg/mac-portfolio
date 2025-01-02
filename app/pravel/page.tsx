@@ -1,4 +1,5 @@
 import Nav from '@/components/nav';
+import Project4Gifs from '@/components/project_4_gifs';
 import ProjectHeader from '@/components/project_header';
 import ProjectImage from '@/components/project_image';
 import ProjectOverview from '@/components/project_overview';
@@ -41,7 +42,7 @@ function Pravel() {
             tool3='Illustrator'
             />
           {/* About */}
-          <section id="About" className="space-y-8 pt-60">
+          <section id="About" className="space-y-8 pt-24 md:pt-60">
                 <h2>
                     About the project
                 </h2>
@@ -71,7 +72,7 @@ function Pravel() {
             </section>
 
             {/* Research */}
-            <section id="Research" className="space-y-8 pt-60">
+            <section id="Research" className="space-y-8 pt-24 md:pt-60">
                 <h2>
                     Research
                 </h2>
@@ -79,22 +80,22 @@ function Pravel() {
                 <h3 className='projectSectionLeft'>
                     Research Goals
                 </h3>
-                <p className='projectSectionRight'>
+                <ul className='projectSectionRight list-disc list-inside'>
                     <li>Identify factors that would encourage pet owners to travel with their pets.</li>
                     <li>Understand barriers preventing pet owners from taking pets on trips.</li>
                     <li>Explore features that would differentiate Pravel from competitors.</li>
                     <li>Define the target audience for the app.</li>
                     <li>Investigate opportunities to expand beyond basic travel information.</li>
-                </p>
+                </ul>
                 </div>
                 
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>Interview Insights</h3>
-                <p className='projectSectionRight'>
+                <ul className='projectSectionRight list-disc list-inside'>
                     <li>Many pet owners prefer traveling with their pets but are deterred by additional planning, fees, and stress.</li>
                     <li>Car travel is favored due to its flexibility, even if it means longer journeys.</li>
                     <li>Air travel is often avoided due to its high cost and stress for pets.</li>
-                </p>
+                </ul>
                 </div>
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>Data Analysis</h3>
@@ -118,7 +119,7 @@ function Pravel() {
             </section>
 
             {/* Definition & Ideation */}
-            <section id="Definition & Ideation" className="space-y-8 pt-60">
+            <section id="Definition & Ideation" className="space-y-8 pt-24 md:pt-60">
                 <h2>
                 Definition & Ideation
                 </h2>
@@ -146,18 +147,18 @@ function Pravel() {
                 <h3 className='projectSectionLeft'>
                     Value Proposition
                 </h3>
-                <p className='projectSectionRight'>
+                <ul className='projectSectionRight list-disc list-inside'>
                   <li>Discover pet-friendly locations along their travel routes.</li>
                   <li>Save and organize travel plans.</li>
                   <li>Share plans with others to foster a community of pet travelers.</li>
-                </p>
+                </ul>
                 </div>
                 
                 
             </section>
 
             {/* Wireframing & Prototyping */}
-            <section id="Wireframing & Prototyping" className="space-y-8 pt-60">
+            <section id="Wireframing & Prototyping" className="space-y-8 pt-24 md:pt-60">
                 <h2>
                 Wireframing & Prototyping
                 </h2>
@@ -169,11 +170,11 @@ function Pravel() {
                 <p>
                 The app emphasizes a streamlined user flow where users can quickly:
                 </p>
-                <p>
+                <ul className='list-disc list-inside'>
                     <li>Search for pet-friendly locations.</li>
                     <li>Save locations to plans.</li>
                     <li>Share plans with others.</li>
-                </p>
+                </ul>
                 </div>
                 
                 </div>
@@ -191,11 +192,11 @@ function Pravel() {
                 <p>
                 Initial sketches explored various layouts for:
                 </p>
-                <p>
+                <ul className='list-disc list-inside'>
                     <li>Filtering pet-friendly locations.</li>
                     <li>Viewing and saving plans.</li>
                     <li>Navigating profiles and search features.</li>
-                </p>
+                </ul>
                 </div>
                 
                 </div>
@@ -222,19 +223,19 @@ function Pravel() {
             </section>
 
 
-            <section id="User Testing" className="space-y-8 pt-60">
+            <section id="User Testing" className="space-y-8 pt-24 md:pt-60">
                 <h2>
                     User Testing
                 </h2>
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>Testing Objectives</h3>
-                <p className='projectSectionRight'>
+                <ul className='projectSectionRight list-disc list-inside'>
                     <li>Ensure users can easily create accounts.</li>
                     <li>Verify the usefulness of the travel plan feature.</li>
                     <li>Test the discoverability of the search and profile functionalities.</li>
                     <li>Confirm users can find directions to destinations.</li>
                     <li>Highlight the ease of adding pets to user profiles.</li>
-                </p>
+                </ul>
                 </div>
                 
                 <ProjectImage
@@ -244,10 +245,10 @@ function Pravel() {
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>Key Findings</h3>
-                <p className='projectSectionRight'>
+                <ul className='projectSectionRight list-disc list-inside'>
                     <li>Users appreciated the ability to save and share plans.</li>
                     <li>Some navigation elements required clarification for smoother interactions.</li>
-                </p>
+                </ul>
                 </div>
                 
                 <div className='projectSection'>
@@ -258,10 +259,10 @@ function Pravel() {
 
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>Style Guide</h3>
-                <p className='projectSectionRight'>
+                <ul className='projectSectionRight list-disc list-inside'>
                     <li>Clean, modern interface with warm, inviting tones.</li>
                     <li>Pet-friendly design elements to resonate with the target audience.</li>
-                </p>
+                </ul>
                 </div>
                 
                 <ProjectImage
@@ -273,16 +274,21 @@ function Pravel() {
                 <h3 className='projectSectionLeft'>Prototype in action</h3>
                 </div>
                 
-                <ProjectImage
-                className='relative aspect-[1080/611]'
-                src=''
-                alt=''
+                <Project4Gifs
+                src1='/pravel-onboarding.gif'
+                alt1='pravel onboarding prototype gif'
+                src2='/pravel-new-plan.gif'
+                alt2='pravel new plan flow gif'
+                src3='/pravel-tips.gif'
+                alt3='pravel tips app section gif'
+                src4='/pravel-profile.gif'
+                alt4='pravel profile app section gif'
                 />
             </section>
 
 
             {/* Reflection */}
-            <section id="Reflection" className="space-y-8 py-60">
+            <section id="Reflection" className="space-y-8 py-24 md:py-60">
                 <h2>
                     Reflection
                 </h2>
@@ -300,10 +306,10 @@ function Pravel() {
                 Future Considerations:
                 </h3>
                 <div className='projectSectionRight'>
-                <p>
+                <ul className='projectSectionRight list-disc list-inside'>
                 <li> Develop features like saving other&apos;s plans, enhanced search options, and personalized recommendations. </li>
                   <li>Conduct further testing to validate new features and refine existing ones.</li>
-                </p>
+                </ul>
                 <p>
                 Pravel is designed to grow as a community-driven platform, empowering pet owners to travel confidently with their furry companions.
                 </p>
