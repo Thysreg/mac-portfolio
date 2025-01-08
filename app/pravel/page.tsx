@@ -92,7 +92,7 @@ function Pravel() {
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>Interview Insights</h3>
                 <ul className='projectSectionRight list-disc list-inside'>
-                    <li>Many pet owners prefer traveling with their pets but are deterred by additional planning, fees, and stress.</li>
+                    <li>Many pet owners prefer traveling with their pets but are deterred by additional planning, fees and stress.</li>
                     <li>Car travel is favored due to its flexibility, even if it means longer journeys.</li>
                     <li>Air travel is often avoided due to its high cost and stress for pets.</li>
                 </ul>

@@ -58,7 +58,7 @@ function USDA() {
                 </h4>
                 <ul className='list-disc list-inside'>
                     <li>Subcategories are unclear in the navigation menu, complicating access to specific information.</li>
-                    <li>The search function lacks robust filtering options, such as by title, category, or date range.</li>
+                    <li>The search function lacks robust filtering options, such as by title, category or date range.</li>
                     <li>Some important pages, like the USDA Farmers Market, are difficult to locate directly from the main menu.</li>
                 </ul>
                 </div>
@@ -70,7 +70,7 @@ function USDA() {
                 </h3>
                 <div className='projectSectionRight'>
                 <p>
-                The redesign focuses on simplifying navigation, enhancing the search functionality, and modernizing the overall look of the website while maintaining its recognizable identity. Key improvements include:                </p>
+                The redesign focuses on simplifying navigation, enhancing the search functionality and modernizing the overall look of the website while maintaining its recognizable identity. Key improvements include:                </p>
                 <ul className='list-disc list-inside'>
                   <li>A reorganized top navigation bar with clearer categories and subcategories.</li>
                   <li>Enhanced prominence and functionality of the search bar.</li>
@@ -120,7 +120,7 @@ function USDA() {
                     Typical User Path
                 </h4>
                 <p>
-                Jeff visits the USDA website to find relevant fact sheets, navigate press releases, and apply to sell at the Farmers Market.
+                Jeff visits the USDA website to find relevant fact sheets, navigate press releases and apply to sell at the Farmers Market.
                 </p>
                     </div>
 
@@ -132,10 +132,10 @@ function USDA() {
                 </h3>
                     <div className='projectSectionRight'>
                     <p>
-                Objective: Assess whether users can easily locate specific information and identify pain points in navigation.
+                <b>Objective:</b> Assess whether users can easily locate specific information and identify pain points in navigation.
                 </p>
                 <h4>
-                    Tasks & Findings:
+                    Tasks & Findings
                 </h4>
                 <ul className='list-disc list-inside'>
                 <li>Locate crop coexistence fact sheets: <br/>
@@ -144,7 +144,7 @@ function USDA() {
                 <br/>
                 <li>
                 Find a press release by title: <br/>
-                <b>Issue:</b> The lack of filters for press releases (e.g., title, category, date range) complicates the search process.
+                <b>Issue:</b> The lack of filters for press releases (e.g., title, category or date range) complicates the search process.
                 </li>
                 <br/>
                 <li> Navigate to the Farmers Market page: <br/>
@@ -242,7 +242,7 @@ function USDA() {
                     Sketches & Prototyping
                 </h3>
                 <p className='projectSectionRight'>
-                Initial sketches explored layout changes for navigation and content presentation. Prototypes were iteratively tested, refining features like filtering options, visual hierarchy, and mobile responsiveness.
+                Initial sketches explored layout changes for navigation and content presentation. Prototypes were iteratively tested, refining features like filtering options, visual hierarchy and mobile responsiveness.
                 </p>
                 </div>
                 
@@ -280,7 +280,7 @@ function USDA() {
                     Home Page Redesign
                 </h3>
                 <p className='projectSectionRight'>
-                The updated homepage emphasizes accessibility, with a prominent search bar, streamlined navigation, and quick links to popular resources.
+                The updated homepage emphasizes accessibility, with a prominent search bar, streamlined navigation and quick links to popular resources.
                 </p>
                 </div>
                 
@@ -289,7 +289,7 @@ function USDA() {
                     Responsive Design
                 </h3>
                 <p className='projectSectionRight'>
-                The redesign ensures consistent functionality and appearance across devices. Subcategories are nested intuitively within the navigation menu, and mobile users benefit from enhanced usability.
+                The redesign ensures consistent functionality and appearance across devices. Subcategories are nested intuitively within the navigation menu and mobile users benefit from enhanced usability.
                 </p>
                 </div>
                 
@@ -329,7 +329,7 @@ function USDA() {
                 </div>
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
-                    Findings:
+                    Findings
                 </h3>
                 <ul className='list-disc list-inside projectSectionRight'>
                     <li>Younger users favored the search bar, while older users relied more on navigation buttons.</li>
@@ -357,16 +357,16 @@ function USDA() {
                 </div>
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
-                Future Considerations:
+                Future Considerations
                 </h3>
                 <div className='projectSectionRight'>
                 <ul className='list-disc list-inside'>
                     <li> Develop a more comprehensive prototype with fully linked pages for realistic testing. </li>
                   <li>Conduct further usability testing to validate findings and refine the design.</li>
-                  <li>Explore additional features such as personalized recommendations, improved filtering, and tools to assist users with specific needs.</li>
+                  <li>Explore additional features such as personalized recommendations, improved filtering and tools to assist users with specific needs.</li>
                 </ul>
                 <p>
-                The USDA website redesign lays a strong foundation for improving access to vital resources, but further iterations and expanded testing will be key to achieving its full potential.
+                The USDA website redesign lays a strong foundation for improving access to vital resources but further iterations and expanded testing will be key to achieving its full potential.
                 </p>
                 </div>
                 

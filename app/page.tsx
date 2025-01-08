@@ -90,10 +90,10 @@ export default function Home() {
             {/* Values */}
             <section id="Values" className="pt-24 md:pt-60 space-y-6">
               <h2 className="md:pr-48">
-                Intuitive and impactful solutions that balance creativity, empathy, and efficiency.
+                Intuitive and impactful solutions that balance creativity, empathy and efficiency.
               </h2>
               <p className="md:pl-72">
-                I specialize in UX/UI, design systems, and responsive interfaces for web and mobile applications. My expertise spans tools like Figma, After Effects, and Photoshop, alongside hands-on experience in user research, prototyping, and iterative design.
+                I specialize in UX/UI, design systems and responsive interfaces for web and mobile applications. My expertise spans tools like Figma, After Effects and Photoshop, alongside hands-on experience in user research, prototyping and iterative design.
               </p>
               <p className="md:pl-72">
                 Collaboration and adaptability are at the heart of my process, having worked with cross-functional teams in industries ranging from SaaS to retail. I thrive on solving complex challenges and ensuring every design not only meets user needs but also aligns with business goals.

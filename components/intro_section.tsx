@@ -19,7 +19,7 @@ function Intro() {
                 className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">For everyone
         </button>
         <button onClick={() =>
-                handleButtonClick("I’m a product designer with 4 years of experience in brand and digital product, contributing to both innovative startups and established companies.")}
+                handleButtonClick("I’m a product designer with 4 years of experience in brand and digital product, having contributed to both innovative startups and established companies.")}
                 className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">Recruiters
         </button>
         <button onClick={() =>

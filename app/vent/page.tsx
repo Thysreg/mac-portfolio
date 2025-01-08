@@ -139,7 +139,7 @@ function Vent() {
                 </h3>
                 <div className='projectSectionRight'>
                 <p>
-                Ven-T bridges the gap between tourists, locals, and event planners by offering a centralized and reliable platform. Key features include:
+                Ven-T bridges the gap between tourists, locals and event planners by offering a centralized and reliable platform. Key features include:
                 </p>
                 <ul className='list-disc list-inside'>
                   <li>A map-based interface for exploring events.</li>
@@ -158,7 +158,7 @@ function Vent() {
                   Feature Prioritization
                 </h4>
                 <p>
-                Using a Feature Prioritization Matrix, the team identified essential functionalities to ensure user needs were met without overcomplicating the initial development.
+                Using a Feature Prioritization Matrix, essential functionalities were identified to ensure user needs were met without overcomplicating the initial development.
                 </p>
                 </div>
                 </div>
@@ -204,7 +204,7 @@ function Vent() {
                   </div>
                   <ul className='projectSectionRight list-disc list-inside'>
                     <li>
-                      <b>High-Fidelity Designs:</b> User research informed the final designs, focusing on practical features like filtering, event details, and location-based exploration.
+                      <b>High-Fidelity Designs:</b> User research informed the final designs, focusing on practical features like filtering, event details and location-based exploration.
                     </li>
                   </ul>
                 </div>
@@ -253,7 +253,7 @@ function Vent() {
                 </h3>
                 <div className='projectSectionRight'>
                 <ul className='list-disc list-inside'>
-                <li> User behavior-based event recommendations. </li>
+                <li>User behavior-based event recommendations. </li>
                   <li>Advanced filtering options.</li>
                   <li>Features like attendee counters and cluster markers for easier navigation.</li>
                   <li>Social media integration and personalized profiles.</li>
@@ -262,7 +262,7 @@ function Vent() {
                   
 
                 <p>
-                Ven-T set the foundation for a modern event-discovery experience, and its thoughtful design and development serve as a strong example of problem-solving in app design.
+                Ven-T set the foundation for a modern event-discovery experience and its thoughtful design and development serve as a strong example of problem-solving in app design.
 
                 </p>
                 </div>
