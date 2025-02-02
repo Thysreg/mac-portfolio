@@ -63,7 +63,7 @@ function OpenPad() {
                 </h3>
                 <div className='projectSectionRight'>
                 <p>
-                Travel agents face significant challenges when managing bookings due to an overwhelming amount of information and unclear workflows. The primary pain points identified include
+                Travel agents face significant challenges when managing bookings due to an overwhelming amount of information and unclear workflows. The primary pain points identified include:
                 </p>
                 <ul className='list-disc list-inside'>
                     <li><b>Unclear Steps:</b> Agents often struggle to determine when and where specific actions are required.</li>
@@ -80,7 +80,7 @@ function OpenPad() {
                 </h3>
                 <div className='projectSectionRight'>
                 <p>
-                Focused on optimizing the workflow for travel agents by
+                Focused on optimizing the workflow for travel agents by:
                 </p>
                 <ul className='list-disc list-inside'>
                   <li><b>Streamlined Information Structure:</b> Information was rearranged to provide a clearer and more intuitive flow without requiring users to relearn the platform.</li>
@@ -171,7 +171,7 @@ function OpenPad() {
                 </h3>
                 <div className='projectSectionRight'>
                     <p >
-                    The improvements focused on simplifying travel agents&apos; workflows while maintaining the core structure
+                    The improvements focused on simplifying travel agents&apos; workflows while maintaining the core structure:
                     </p>
                     <ul className='list-disc list-inside'>
                         <li><b>Round Trip Combination:</b> Merged round trips into a single line to eliminate redundant information.</li>
@@ -200,7 +200,7 @@ function OpenPad() {
                     </h3>
                     <div className='projectSectionRight'>
                         <p>
-                        Significant improvements were made to enhance clarity and navigation during the booking process
+                        Significant improvements were made to enhance clarity and navigation during the booking process:
                         </p>
                         <ul className='list-disc list-inside'>
                             <li><b>Persistent Step Navigation:</b> Booking steps are now displayed at the bottom of the screen, allowing agents to move back and forth without scrolling.</li>
@@ -225,7 +225,7 @@ function OpenPad() {
                     </h3>
                     <div className='projectSectionRight'>
                         <p>
-                        Updates focused on providing travel agents with better tools for managing orders
+                        Updates focused on providing travel agents with better tools for managing orders:
                         </p>
                         <ul className='list-disc list-inside'>
                             <li><b>Passenger Names in Orders List:</b> Added passenger names to help agents quickly locate specific orders.</li>
@@ -252,7 +252,7 @@ function OpenPad() {
                     </h3>
                     <div className='projectSectionRight'>
                         <p>
-                        The rebooking process was reimagined to provide a more intuitive experience
+                        The rebooking process was reimagined to provide a more intuitive experience:
                         </p>
                         <ul className='list-disc list-inside'>
                             <li><b>Segment Clarity:</b> Improved display of segments being changed to reduce confusion.</li>
