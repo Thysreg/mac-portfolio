@@ -186,7 +186,7 @@ function OpenPad() {
                 
                 <ProjectImage
                 className="relative aspect-[1223/865]"
-                src='/op-old-shop.webp'
+                src='/op-old-shop.jpg'
                 alt='openpad old shop interface'
                 />
                 <ProjectImage
