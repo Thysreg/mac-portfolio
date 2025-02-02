@@ -8,7 +8,7 @@ import React from 'react'
 
 function Pravel() {
 
-  const sections = [ "About", "Research", "Design Process", "Final Design", "User Testing", "Reflection"];
+  const sections = [ "About", "Research", "Definition & Ideation", "Wireframing & Prototyping", "User Testing", "Reflection"];
   
   return (
     <div>

@@ -34,17 +34,17 @@ export default function Home() {
             {/*  Work */}
             <section id="Work" className="md:pt-60 space-y-36 md:space-y-72">
               {/* BookingPad */}
-              {/* <Project
-                project='BookingPad'
+              <Project
+                project='OpenPad'
                 chip1='User Research'
-                chip2='BSB'
+                chip2='B2B'
                 chip3='Product Design'
                 chip4='Prototype'
-                chip5='Web App'
-                link='/bookingpad'
-                src='/ven-t-mockups.png'
+                chip5='SaaS'
+                link='/openpad'
+                src='/op-shop.gif'
                 alt='ven-t app mockups'
-              /> */}
+              />
 
               {/* Ven-T */}
               <Project

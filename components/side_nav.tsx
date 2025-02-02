@@ -23,7 +23,7 @@ function SideNav({sections=[]}: SideNavProps) {
       },
       {
         root: null,
-        threshold: 0.7
+        threshold: 0.1
       }
     );
 

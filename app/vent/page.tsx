@@ -119,7 +119,7 @@ function Vent() {
                 </div>
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft text-wrap'>
-                    Competitive Analisys
+                    Competitive Analysis
                 </h3>
                 <p className='projectSectionRight'>
                 While platforms like Fiestas de Asturias and Pella de Ocio share a similar focus, they lacked essential features like maps or event-saving options. Indirect competitors like Google or Eventbrite provide limited information or are tailored more toward ticketed events. This gap reinforced the need for a modern and localized solution.
