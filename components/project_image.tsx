@@ -10,6 +10,7 @@ function ProjectImage({src="", alt="", className="relative aspect-[1920/1080]"})
                       
                       style={{ objectFit: "cover"}}
                       className= " rounded-md"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       alt= {alt}
                 />
             </div>

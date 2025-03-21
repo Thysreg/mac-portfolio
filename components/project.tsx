@@ -1,19 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 
-interface ProjectProps {
-  project: string;
-  chip1?: string;
-  chip2?: string;
-  chip3?: string;
-  chip4?: string;
-  chip5?: string;
-  link: string;
-  src: string;
-  alt: string;
-}
 
-function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", chip5 = "", link = "", src = "", alt = ""}: ProjectProps) {
+function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", chip5 = "", link = "", src = "", alt = ""}) {
   return (
     <Link 
     href={link}
@@ -45,6 +34,7 @@ function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", 
             src={src}
             fill
             className=" rounded-md object-cover"
+            sizes="(max-width: 768px) 100vw, 50vw"
             alt={alt}
             priority
           />

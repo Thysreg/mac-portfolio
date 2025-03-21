@@ -3,9 +3,8 @@
 import {useState} from "react";
 import { HiOutlineMenuAlt4, HiOutlineX } from "react-icons/hi";
 import IconMail from "./icon_mail";
-import IconInstagram from "./icon_instagram";
 import IconLinkedin from "./icon_linkedin";
-import IconYoutube from "./icon_youtube";
+import IconFile from "./icon_file";
 
 interface MenuProps {
   sections: string[];
@@ -23,31 +22,26 @@ const Nav = ({sections = [] }: MenuProps) => {
   };
 
   return (
-    <nav className="flex-no-wrap fixed top-0 z-10 flex w-full items-center justify-between text-gray-800 dark:text-gray-50 px-4 md:px-12 my-8">
-<a 
-  href="./" 
-  className="relative inline-block text-lg text-gray-800 dark:text-gray-400 group overflow-hidden"
->
-  {/* Visible text */}
-  <span 
-    className="inline-block transition-opacity duration-300 ease-in-out group-hover:tracking-wide"
-  >
-    J<span className="hidden group-hover:inline-block">aime </span>M
-    <span className="hidden group-hover:inline-block">Carron</span>
-  </span>
-</a>
-
-
-
-
+    <nav className="flex-nowrap fixed top-0 z-10 flex w-full items-center justify-between text-gray-800 dark:text-gray-50 px-4 md:px-12 my-8">
+      <a 
+        href="./" 
+        className="relative inline-block text-lg text-gray-800 dark:text-gray-400 group overflow-hidden"
+      >
+        {/* Visible text */}
+        <span 
+          className="inline-block transition-opacity duration-300 ease-in-out group-hover:tracking-wide"
+        >
+          J<span className="hidden group-hover:inline-block">aime&nbsp;</span>M
+          <span className="hidden group-hover:inline-block">cCarron</span>
+        </span>
+      </a>
 
         {/* Desktop Icons */}
         <div className="hidden md:flex items-center space-x-4">
 
+            <IconFile />
             <IconMail />
             <IconLinkedin />
-            <IconInstagram />
-            <IconYoutube />
             
           </div>
 
@@ -89,10 +83,9 @@ const Nav = ({sections = [] }: MenuProps) => {
               </div>
               {/* Social Icons for Mobile */}
               <div className="flex flex-row space-x-4">
+                <IconFile />
                 <IconMail />
                 <IconLinkedin />
-                <IconInstagram />
-                <IconYoutube />
               </div>
 
               

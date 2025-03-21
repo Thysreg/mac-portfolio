@@ -9,7 +9,9 @@ function ProjectHeader({src="", alt=""}) {
                       fill
                       style={{ objectFit:'cover' }}
                       className= " rounded-md"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       alt= {alt}
+                      priority
                 />
             </div>
   )

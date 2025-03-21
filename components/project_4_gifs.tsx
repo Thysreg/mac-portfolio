@@ -10,6 +10,7 @@ function Project4Gifs({src1="", alt1="", src2="", alt2="", src3="", alt3="", src
                       fill
                       style={{ objectFit:'cover' }}
                       className= "rounded-l-md"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       alt= {alt1}
                 />
                 </div>
@@ -18,6 +19,7 @@ function Project4Gifs({src1="", alt1="", src2="", alt2="", src3="", alt3="", src
                       src= {src2}
                       fill
                       style={{ objectFit:'cover' }}
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       alt= {alt2}
                 />
                 </div>
@@ -26,6 +28,7 @@ function Project4Gifs({src1="", alt1="", src2="", alt2="", src3="", alt3="", src
                       src= {src3}
                       fill
                       className= "object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       alt= {alt3}
                 />
                 </div>
@@ -36,6 +39,7 @@ function Project4Gifs({src1="", alt1="", src2="", alt2="", src3="", alt3="", src
                       fill
                       style={{ objectFit:'cover' }}
                       className= "rounded-r-md"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       alt= {alt4}
                 />
                 </div>

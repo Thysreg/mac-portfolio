@@ -31,7 +31,7 @@ function Intro() {
                 className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">Engineers
         </button>
       </div>
-      <h1 className='relative justify-center'>{introText}</h1>
+      <h3 className='relative justify-center text-2xl md:text-6xl tracking-tight'>{introText}</h3>
     </section>
     
   )

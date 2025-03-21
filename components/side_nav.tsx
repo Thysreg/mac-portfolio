@@ -16,7 +16,6 @@ function SideNav({sections=[]}: SideNavProps) {
       (entries) => {
         entries.forEach((entry) =>{
           if(entry.isIntersecting) {
-            console.log("Active section", entry.target.id);
             setActiveSection(entry.target.id)
           }
         });

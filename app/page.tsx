@@ -3,6 +3,7 @@ import SideNav from '@/components/side_nav';
 import Intro from '@/components/intro_section';
 import Project from '@/components/project';
 import Nav from '@/components/nav';
+import SectionTitle from '@/components/section_title';
 
 export default function Home() {
 
@@ -32,8 +33,11 @@ export default function Home() {
             <Intro />
 
             {/*  Work */}
-            <section id="Work" className="md:pt-60 space-y-36 md:space-y-72">
-              {/* BookingPad */}
+            <section id="Work" className="md:pt-60">
+              
+            <SectionTitle title="Work" />
+            <div className="space-y-36 md:space-y-72">
+                 {/* BookingPad */}
               <Project
                 project='OpenPad'
                 chip1='User Research'
@@ -85,31 +89,40 @@ export default function Home() {
                 alt='USDA concept redesign'
               />
 
+              </div>
+             
             </section>
 
             {/* Values */}
             <section id="Values" className="pt-24 md:pt-60 space-y-6">
-              <h2 className="md:pr-48">
+            <SectionTitle title="Values" />
+            <div className="space-y-6">
+            <h3 className="md:pr-48">
                 Intuitive and impactful solutions that balance creativity, empathy and efficiency.
-              </h2>
+              </h3>
               <p className="md:pl-72">
                 I specialize in UX/UI, design systems and responsive interfaces for web and mobile applications. My expertise spans tools like Figma, After Effects and Photoshop, alongside hands-on experience in user research, prototyping and iterative design.
               </p>
               <p className="md:pl-72">
                 Collaboration and adaptability are at the heart of my process, having worked with cross-functional teams in industries ranging from SaaS to retail. I thrive on solving complex challenges and ensuring every design not only meets user needs but also aligns with business goals.
               </p>
+            </div>
+              
             </section>
 
 
             {/* Background */}
-            <section id="Background" className="pt-36 md:pt-60 space-y-16 md:space-y-32">
-
+            <section id="Background" className="pt-36 md:pt-60">
+            <SectionTitle title="Background" />
+            <div className=" space-y-16 md:space-y-32">
               {/* AirGateway */}
               <BackgroundExperience
                 src="/logo_AGW.png"
                 width={100} alt='AirGateway Logo'
                 company='AirGateway'
                 role='UX Designer & Product Manager'
+                startDate='Jun 2023'
+                endDate='Sep 2024'
                 description= {[
                   'Redesigned the current platform based on user feedback.',
                   'Created a Design System to improve consistency across the platform.',
@@ -123,6 +136,8 @@ export default function Home() {
                 alt='Mecalux Logo'
                 company='Mecalux'
                 role='UX Designer'
+                startDate='Mar 2023'
+                endDate='Jun 2023'
                 description= {[
                   'Redesigned RFID screens while minimizing structural changes.',
                   'Supervised the development process.',
@@ -137,6 +152,8 @@ export default function Home() {
                 alt='Jaime McCarron Logo'
                 company='Freelance'
                 role='Product Designer & Developer'
+                startDate='Jun 2022'
+                endDate='Mar 2023'
                 description= {[
                   'Designed and developed an app.',
                   'Designed and developed websites using WordPress or HTML & CSS.',
@@ -150,6 +167,8 @@ export default function Home() {
                 alt='LeoHome Logo'
                 company='LeoHome'
                 role='Product Designer'
+                startDate='Jun 2021'
+                endDate='Sep 2022'
                 description= {[
                   'Conducted potential user research and information gathering.',
                   'Created an MVP prototype app to attract investors.',
@@ -157,20 +176,9 @@ export default function Home() {
                   'Redesigned logo to better align with the companys spirit.',
                 ]}
                   />
+            </div>
+              
             </section>
-
-            {/* Contact */}
-            {/* <section id="Contact" className="pt-36 md:pt-48">
-              <h2 className="md:pr-48">
-                Intuitive and impactful solutions that balance creativity, empathy, and efficiency.
-              </h2>
-              <p className="md:pl-72">
-                I specialize in UX/UI, design systems, and responsive interfaces for web and mobile applications. My expertise spans tools like Figma, After Effects, and Photoshop, alongside hands-on experience in user research, prototyping, and iterative design.
-              </p>
-              <p className="md:pl-72">
-                Collaboration and adaptability are at the heart of my process, having worked with cross-functional teams in industries ranging from SaaS to retail. I thrive on solving complex challenges and ensuring every design not only meets user needs but also aligns with business goals.
-              </p>
-            </section> */}
           </div>
         </div>
         </main>
