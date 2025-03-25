@@ -168,6 +168,7 @@ function Vent() {
                 className="relative aspect-[1920/1080] border-white border-8 rounded-md bg-white"
                 src='/ven-t-feature-prioritazation-matrix-1080.jpg'
                 alt='ven-t feature prioritazation matrix'
+                label='Feature Prioritization Matrix'
                 />
                 <div className='projectSection'>
                   <h3 className='projectSectionLeft'></h3>
@@ -192,12 +193,14 @@ function Vent() {
                 className="relative aspect-[1920/1080]"
                 src='/ven-t-sketches-old-1080.jpg'
                 alt='ven-t sketches'
+                label='Sketches'
                 />
                 
                   <ProjectImage
                   className="relative aspect-[1080/610]"
                 src='/ven-t-menus-1080.png'
                 alt='ven-t old prototype screens'
+                label='Old prototype screens'
                 />
                 <div className='projectSection'>
                   <div className='projectSectionLeft'>
@@ -213,6 +216,7 @@ function Vent() {
                 className="relative aspect-[1440/1080]"
                 src='/ven-t-mockups-isometric.jpg'
                 alt='ven-t old prototype screens'
+                label='High fidelity designs'
                   />
             </section>
 

@@ -68,6 +68,7 @@ function Pravel() {
                 className='relative aspect-[1080/611]'
                 src='/pravel-mockup-1080.jpg'
                 alt='phone on hands of man with the Pravel app open'
+                label='Pravel app mockup'
                 />
             </section>
 
@@ -105,6 +106,7 @@ function Pravel() {
                 className='relative aspect-[1080/370] border-white border-8 rounded-md bg-white'
                 src='/affinity-diagram-1080.jpg'
                 alt='affinity diagram of research for Pravel app'
+                label='Affinity diagram'
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>Data Synthesis: User Persona</h3>
@@ -114,6 +116,7 @@ function Pravel() {
                 className='relative aspect-[1080/829]'
                 src='/user-persona-1080.jpg'
                 alt='user persona details for Pravel research'
+                label='User persona'
                 />
 
             </section>
@@ -142,6 +145,7 @@ function Pravel() {
                 className='relative aspect-[1080/335] border-white border-8 rounded-md bg-white'
                 src='/brainstorming-1080.jpg'
                 alt='Pravel brainstorming'
+                label='Brainstorming'
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
@@ -183,6 +187,7 @@ function Pravel() {
                 className='relative aspect-[1080/870] border-white border-8 rounded-md bg-white'
                 src='/user-flow-1080.jpg'
                 alt='user flow of Pravel app'
+                label='User flow'
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
@@ -205,6 +210,7 @@ function Pravel() {
                 className='relative aspect-[1080/741]'
                 src='/sketches-1080.jpg'
                 alt='sketches for the design of the Pravel app'
+                label='Sketches'
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
@@ -219,6 +225,7 @@ function Pravel() {
                 className="relative aspect-[1080/1149]"
                 src='/pravel-wireframes-1080.png'
                 alt='Wireframes of Pravel mobile app'
+                label='Wireframes'
                 />
             </section>
 
@@ -242,6 +249,7 @@ function Pravel() {
                 className='relative aspect-[1839/543]'
                 src='/guerrilla-testing-1080.jpg'
                 alt='Sticky notes of Guerrilla testing for Pravel app'
+                label='Guerrilla testing'
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>Key Findings</h3>
@@ -269,6 +277,7 @@ function Pravel() {
                 className='relative aspect-[2932/6064] bg-white rounded-md'
                 src='/pravel-style-guide.png'
                 alt='Pravel style guide'
+                label='Style guide'
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>Prototype in action</h3>

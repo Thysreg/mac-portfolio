@@ -21,7 +21,7 @@ interface ProjectColumns {
 
 function ProjectOverview({role1, role2, role3, role4, deliverable1, deliverable2, deliverable3, deliverable4, tool1, tool2, tool3, tool4 }:ProjectColumns) {
   return (
-    <div className='flex flex-col md:flex-row justify-between space-y-8 text-nowrap'>
+    <div className='flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 text-nowrap'>
         <div className='flex flex-col space-y-2 md:space-y-4'>
             <h3 className='text-xl'>
                 <b>ROLE</b>

@@ -27,13 +27,7 @@ const Nav = ({sections = [] }: MenuProps) => {
         href="./" 
         className="relative inline-block text-lg text-gray-800 dark:text-gray-400 group overflow-hidden"
       >
-        {/* Visible text */}
-        <span 
-          className="inline-block transition-opacity duration-300 ease-in-out group-hover:tracking-wide"
-        >
-          J<span className="hidden group-hover:inline-block">aime&nbsp;</span>M
-          <span className="hidden group-hover:inline-block">cCarron</span>
-        </span>
+          Jaime McCarron
       </a>
 
         {/* Desktop Icons */}

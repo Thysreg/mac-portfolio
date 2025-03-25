@@ -85,6 +85,7 @@ function USDA() {
                     className="relative aspect-[1080/768]"
                     src='/usda-desktop-home-1080.jpg'
                     alt='USDA website home page'
+                    label='USDA Home page redesign'
                 />
             </section>
 
@@ -109,9 +110,10 @@ function USDA() {
                 </div>
                 
                 <ProjectImage
-                className=' relative aspect-[1920/1080] border-white border-8 rounded-md bg-white'
-                src='/usda-user-proto-persona-1080.png'
-                alt='User proto persona USDA'
+                    className=' relative aspect-[1920/1080] border-white border-8 rounded-md bg-white'
+                    src='/usda-user-proto-persona-1080.png'
+                    alt='User proto persona USDA'
+                    label='User persona'
                 />
                 <div className='projectSection'>
                     <div className='projectSectionLeft'></div>
@@ -158,6 +160,7 @@ function USDA() {
                 className="relative aspect-[1080/649] border-white border-8 rounded-md bg-white"
                 src='/usda-test-results-1080.png'
                 alt='User redesign interviews results'
+                label='user testing results'
                 />
 
                 <div className='projectSection'>
@@ -170,6 +173,7 @@ function USDA() {
                 className="relative aspect-[1194/512] border-white border-8 rounded-md bg-white"
                 src='/usda-mood-board-1080.png'
                 alt='USDA mood board inspiration examples'
+                label='Mood board'
                 />
 
             </section>
@@ -192,6 +196,7 @@ function USDA() {
                 className="relative aspect-[1080/705]"
                 src='/usda-navigation-redline-1080.jpg'
                 alt='USDA navigation red line annotations analysis'
+                label='Heuristic evaluation'
                 />
                 <div className='projectSection'>
                 <h4 className='projectSectionLeft'>Navigation Testing</h4>
@@ -219,11 +224,13 @@ function USDA() {
                 className="relative aspect-[1458/809]"
                 src='/usda-card-sorting-1080.png'
                 alt='USDA menu card sorting testing'
+                label='Card sorting'
                 />
                 <ProjectImage
                 className="relative aspect-[1080/469]"
                 src='/usda-site-map-1080.png'
                 alt='USDA new site map structure suggestion'
+                label='Site map'
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>New Navigation</h3>
@@ -236,6 +243,7 @@ function USDA() {
                 className="relative aspect-[1080/770]"
                 src='/usda-redesign-navigation-1080.jpg'
                 alt='USDA redesigned navigation'
+                label='New navigation'
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
@@ -250,6 +258,7 @@ function USDA() {
                 className="relative aspect-[1097/732]"
                 src='/usda-sketches-1080.png'
                 alt='USDA redesign sketches'
+                label='Sketches'
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
@@ -297,6 +306,7 @@ function USDA() {
                 className="relative aspect-[1080/561]"
                 src='/usda-redesign-home-1080.jpg'
                 alt='USDA redesigned home page'
+                label='Final design'
                 />
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
@@ -311,6 +321,7 @@ function USDA() {
                 className="relative aspect-[1080/3159]"
                 src='/usda-style-guide-1080.jpg'
                 alt='USDA redesign style guide'
+                label='Style guide'
                 />
             </section>
 

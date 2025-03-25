@@ -1,6 +1,7 @@
 import Nav from '@/components/nav';
 import ProjectHeader from '@/components/project_header';
 import ProjectImage from '@/components/project_image';
+import ImageSlider from '@/components/project_image_compare';
 import ProjectOverview from '@/components/project_overview';
 import SideNav from '@/components/side_nav';
 import React from 'react'
@@ -45,33 +46,33 @@ function OpenPad() {
                     About the project
                 </h2>
                 <div className='projectSection'>
-                <h3 className='projectSectionLeft'>
-                    Background
-                </h3>
-                <div className='projectSectionRight'>
-                <p>
-                The airline retailing industry has long relied on the outdated Global Distribution System (GDS), which demands extensive technical knowledge from travel agents due to its terminal-like interface that requires manually inputting commands.
-                </p>
-                <p>
-                OpenPad adopts the New Distribution Capability (NDC) to modernize airline retailing. This transformation enables greater product differentiation, faster time-to-market, improved personalization and enhanced flexibility for both agents and customers, making airline booking processes more efficient and user-friendly.
-                </p>
-                </div>
+                    <h3 className='projectSectionLeft'>
+                        Background
+                    </h3>
+                    <div className='projectSectionRight'>
+                        <p>
+                            The airline retailing industry has long relied on the outdated Global Distribution System (GDS), which demands extensive technical knowledge from travel agents due to its terminal-like interface that requires manually inputting commands.
+                        </p>
+                        <p>
+                            OpenPad adopts the New Distribution Capability (NDC) to modernize airline retailing. This transformation enables greater product differentiation, faster time-to-market, improved personalization and enhanced flexibility for both agents and customers, making airline booking processes more efficient and user-friendly.
+                        </p>
+                    </div>
                 </div>
                 <div className='projectSection'>
-                <h3 className='projectSectionLeft'>
-                    The Problem
-                </h3>
-                <div className='projectSectionRight'>
-                <p>
-                Travel agents face significant challenges when managing bookings due to an overwhelming amount of information and unclear workflows. The primary pain points identified include:
-                </p>
-                <ul className='list-disc list-inside'>
-                    <li><b>Unclear Steps:</b> Agents often struggle to determine when and where specific actions are required.</li>
-                    <li><b>Vague Error Messages:</b> Errors lack clear guidance, causing frustration and delays.</li>
-                    <li><b>Poor Information Visibility:</b> Critical details are difficult to locate quickly.</li>
-                    <li><b>Excessive Scrolling:</b> Navigating long pages disrupts workflow and efficiency.</li>
-                </ul>
-                </div>
+                    <h3 className='projectSectionLeft'>
+                        The Problem
+                    </h3>
+                    <div className='projectSectionRight'>
+                        <p>
+                            Travel agents face significant challenges when managing bookings due to an overwhelming amount of information and unclear workflows. The primary pain points identified include:
+                        </p>
+                        <ul className='list-disc list-inside'>
+                            <li><b>Unclear Steps:</b> Agents often struggle to determine when and where specific actions are required.</li>
+                            <li><b>Vague Error Messages:</b> Errors lack clear guidance, causing frustration and delays.</li>
+                            <li><b>Poor Information Visibility:</b> Critical details are difficult to locate quickly.</li>
+                            <li><b>Excessive Scrolling:</b> Navigating long pages disrupts workflow and efficiency.</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <div className='projectSection'>
@@ -88,8 +89,13 @@ function OpenPad() {
                   <li><b>Enhanced Error Messaging:</b> Clearer, actionable error messages were implemented to guide agents seamlessly through booking tasks.</li>
                 </ul>
                 </div>
-                
                 </div>
+                <ProjectImage
+                className="relative aspect-[1223/865]"
+                src='/op-shop.gif'
+                alt='openpad new shop interface'
+                label='Open Pad Redesign'
+                />
             </section>
 
             {/* Research */}
@@ -139,6 +145,7 @@ function OpenPad() {
                 className=' relative aspect-[1440/795] border-white border-8 rounded-md bg-white'
                 src='/aarongroup.png'
                 alt='Competitor Aaorongroup screen'
+                label='Direct competitor: Aaron Group'
                 />
 
             </section>
@@ -183,17 +190,18 @@ function OpenPad() {
                 </div>
                 
                 </div>
+
+                <ImageSlider
+                    before="/op-old-shop.jpg"
+                    after="/op-shop.jpg"
+                    beforeAlt="Original website design from 2022"
+                    afterAlt="Redesigned website from 2024"
+                    beforeLabel="Shop Original"
+                    afterLabel="Shop Redesign"
+                    width={1223}
+                    height={865}
+                />
                 
-                <ProjectImage
-                className="relative aspect-[1223/865]"
-                src='/op-old-shop.jpg'
-                alt='openpad old shop interface'
-                />
-                <ProjectImage
-                className="relative aspect-[1223/865]"
-                src='/op-shop.gif'
-                alt='openpad new shop interface'
-                />
                 <div className='projectSection'>
                     <h3 className='projectSectionLeft'>
                         Booking Details
@@ -217,6 +225,7 @@ function OpenPad() {
                 className="relative aspect-[1180/864]"
                 src='/op-offer.gif'
                 alt='OpenPad offer flow'
+                label='Booking process'
                 />
 
                 <div className='projectSection'>
@@ -234,16 +243,23 @@ function OpenPad() {
                         </ul>
                     </div>
                 </div>
-                
-                <ProjectImage
-                className="relative aspect-[1428/4096]"
-                src='/op-old-order.jpg'
-                alt='OpenPad old order view'
+
+                <ImageSlider
+                    before="/op-old-order.jpg"
+                    after="/op-order.jpg"
+                    beforeAlt="OpenPad old order view"
+                    afterAlt="OpenPad order view'"
+                    beforeLabel="Original"
+                    afterLabel="Redesign"
+                    width={1180}
+                    height={864}
                 />
+        
                 <ProjectImage
                 className="relative aspect-[1180/864]"
                 src='/op-order.gif'
                 alt='OpenPad order view'
+                label='Order details'
                 />
                 
                 <div className='projectSection'>
@@ -265,6 +281,7 @@ function OpenPad() {
                 className="relative aspect-[1180/864]"
                 src='/bp-rebook.gif'
                 alt='OpenPad rebook process'
+                label='Rebooking process'
                 />
                 <div className='projectSection'>
                     <h3 className='projectSectionLeft'>

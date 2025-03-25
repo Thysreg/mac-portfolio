@@ -1,6 +1,8 @@
 
 function IconMail() {
   return (
+    <div className="relative inline-flex flex-col items-center group">
+
         <a
             href="mailto:jaimemccarron@gmail.com"
             target="blank"
@@ -35,6 +37,13 @@ function IconMail() {
                 />
             </svg>
         </a>
+        <div className="absolute top-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+        <div className="bg-gray-800 dark:bg-gray-200 text-gray-50 dark:text-gray-900 text-sm px-3 py-1.5 rounded-md shadow-md whitespace-nowrap">
+          Email
+       </div>
+      </div>
+    </div>
+
     
   )
 }
