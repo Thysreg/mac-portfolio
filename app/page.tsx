@@ -48,6 +48,21 @@ export default function Home() {
                 link='/openpad'
                 src='/op-shop.gif'
                 alt='ven-t app mockups'
+                className='relative w-full md:w-2/3 aspect-[1223/865]'
+              />
+
+              {/* LNL 25 */}
+              <Project
+                project='LNL 25'
+                chip1='Redesign'
+                chip2='Cultural Event'
+                chip3='Mobile-First'
+                chip4='Supabase Backend'
+                chip5='UX/UI'
+                link='/lnl25'
+                src='/figma-lnl-25.png'
+                alt='La Noche de los Libros redesigned website'
+                className='relative w-full md:w-2/3 aspect-[1924/1024]'
               />
 
               {/* Ven-T */}
@@ -61,10 +76,11 @@ export default function Home() {
                 link='/vent'
                 src='/ven-t-mockups-isometric.jpg'
                 alt='ven-t app mockups'
+                className='relative w-full md:w-2/3 aspect-[1440/1080]'
               />
 
               {/* Pravel */}
-              <Project
+              {/* <Project
                 project='Pravel'
                 chip1='Guerrilla Testing'
                 chip2='Case study'
@@ -74,10 +90,10 @@ export default function Home() {
                 link='/pravel'
                 src='/pravel-mockup-1080.jpg'
                 alt='pravel app'
-              />
+              /> */}
 
               {/* USDA */}
-              <Project
+              {/* <Project
                 project='USDA'
                 chip1='Redesign'
                 chip2='Case study'
@@ -87,7 +103,9 @@ export default function Home() {
                 link='/usda'
                 src='/usda-portada-mockups-1000.jpg'
                 alt='USDA concept redesign'
-              />
+              /> */}
+
+              
 
               </div>
              

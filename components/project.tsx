@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", chip5 = "", link = "", src = "", alt = ""}) {
+function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", chip5 = "", link = "", src = "", alt = "", className=" relative w-full md:w-2/3 aspect-[1920/1080]"}) {
   return (
     <Link 
     href={link}
@@ -29,7 +29,7 @@ function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", 
               </div>
 
       {/* Right Section */}
-        <div className=" relative w-full md:w-2/3 aspect-[5/3]">
+        <div className={className}>
           <Image
             src={src}
             fill
