@@ -8,7 +8,7 @@ import React from 'react'
 
 function Vent() {
 
-  const sections = [ "About", "Research", "Ideation & Development", "Development & Launch", "Future Opportunities" ];
+  const sections = [ "About", "Research", "Ideation & Design", "Development & Launch", "Future Opportunities" ];
   
   return (
     <div>
@@ -129,9 +129,9 @@ function Vent() {
             </section>
 
             {/* Ideation */}
-            <section id="Ideation & Development" className="space-y-8 pt-24 md:pt-60">
+            <section id="Ideation & Design" className="space-y-8 pt-24 md:pt-60">
                 <h2>
-                    Ideation & Development
+                    Ideation & Design
                 </h2>
                 <div className='projectSection'>
                 <h3 className='projectSectionLeft'>
