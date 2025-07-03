@@ -4,7 +4,7 @@ import { useState } from 'react';
 function Intro() {
 
     const [introText, setIntroText] = useState(
-        "Hello, I’m a designer dedicated to enhancing functionality while ensuring every detail reflects thoughtful style."
+        "Hello, I’m Jaime, a designer who believes that great design starts with solving real problems. I focus on usability and clarity, while ensuring every detail reflects thoughtful style."
       );
 
       const [activeButton, setActiveButton] = useState<string>("For everyone");
@@ -25,7 +25,7 @@ function Intro() {
       <div className="flex row space-x-4 overflow-auto text-nowrap">
         <button
           onClick={() => handleButtonClick(
-            "Hello, I'm a designer dedicated to enhancing functionality while ensuring every detail reflects thoughtful style.",
+            "Hello, I’m Jaime, a designer who believes that great design starts with solving real problems. I focus on usability and clarity, while ensuring every detail reflects thoughtful style.",
             "For everyone"
                       )}
             className={getButtonClass("For everyone")}
@@ -34,7 +34,7 @@ function Intro() {
 
         <button
           onClick={() => handleButtonClick(
-            "I’m a product designer with 4 years of experience in brand and digital product, having contributed to both innovative startups and established companies.",
+            "I’m a product designer with 4+ years of experience building digital products. I’ve worked with startups and established teams to launch clean, functional designs that support both business goals and great user experiences.",
             "Recruiters"
                       )}
             className={getButtonClass("Recruiters")}
@@ -43,7 +43,7 @@ function Intro() {
 
         <button
           onClick={() => handleButtonClick(
-            "I’m a systems thinker with an uncompromising eye for quality. From refining processes to crafting pixel-perfect designs, I thrive on collaboration and innovation.",
+            "I think in systems but obsess over the details. Whether it’s refining flows, shaping design ops, or polishing interfaces, I love collaborating with other designers and engineers to solve problems.",
             "Product Designers"
                       )}
             className={getButtonClass("Product Designers")}
@@ -52,7 +52,7 @@ function Intro() {
 
         <button
           onClick={() => handleButtonClick(
-            "With a technical mindset and engineering background, I’ve built multiple websites, including this portfolio, and developed a mobile app, bridging design and development seamlessly.",
+            "With a technical mindset and engineering background,  I’ve built several sites and mobile apps (including this one). I enjoy working closely with engineers to bridge design and development in a way that’s pragmatic and scalable.",
             "Engineers"
                       )}
             className={getButtonClass("Engineers")}

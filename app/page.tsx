@@ -45,6 +45,7 @@ export default function Home() {
                 chip3='Product Design'
                 chip4='Prototype'
                 chip5='SaaS'
+                summary='Redesigning airline booking for clarity and speed.'
                 link='/openpad'
                 src='/op-shop.gif'
                 alt='ven-t app mockups'

@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", chip5 = "", link = "", src = "", alt = "", className=" relative w-full md:w-2/3 aspect-[1920/1080]"}) {
+function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", chip5 = "",summary = "",link = "", src = "", alt = "", className=" relative w-full md:w-2/3 aspect-[1920/1080]"}) {
   return (
     <Link 
     href={link}
@@ -12,6 +12,7 @@ function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", 
               <div className="flex flex-col md:w-1/3 pb-4 md:pb-0 md:justify-between space-y-8 md:h-auto">
               <div className="space-y-8">
               <h2 className="text-5xl">{project}</h2>
+              
                 <div className="flex flex-wrap gap-4">
                   {chip1 && <div className="chip">{chip1}</div>}
                   {chip2 && <div className="chip">{chip2}</div>}
@@ -19,6 +20,7 @@ function Project({project = "", chip1 = "", chip2 = "", chip3 = "", chip4 = "", 
                   {chip4 && <div className="chip">{chip4}</div>}
                   {chip5 && <div className="chip">{chip5}</div>}
                 </div>
+                <p className="text-xl">{summary}</p>
               </div>
                 
                 <div className="hidden md:block">
