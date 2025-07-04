@@ -8,7 +8,7 @@ import React from 'react'
 
 function Vent() {
 
-  const sections = [ "About", "Research", "Ideation & Design", "Development & Launch", "Future Opportunities" ];
+  const sections = [ "About", "Research", "Ideation & Design", "Development & Launch", "Future Opportunities", "Reflections" ];
   
   return (
     <div>
@@ -46,43 +46,15 @@ function Vent() {
 
           {/* About */}
           <section id="About" className="space-y-16 pt-24 md:pt-60">
-                <h2>
-                    About the project
-                </h2>
+                <h2>About the project</h2>
                 <div className='projectSection'>
-                <h3 className='projectSectionLeft'>
-                    The Problem
-                </h3>
-                <div className='projectSectionRight'>
-                <p>
-                Tourists and vacationers in Asturias often struggle to discover local events near their location. Without a centralized source of reliable information, they rely on word-of-mouth, risking missed opportunities for events they might enjoy.
-                </p>
-                <p>
-                Event planners also face challenges, lacking a modern and effective platform to promote their activities. Traditional methods, such as posters or outdated websites, limit their reach and create barriers for new or smaller-scale events.
-                </p>
-                </div>
-                </div>
-
-                <div className='projectSection'>
-                <h3 className='projectSectionLeft'>
-                    The Solution
-                </h3>
-                <div className='projectSectionRight'>
-                <p>
-                Ven-T is an event-listing app designed to connect people with events around them while promoting tourism in rural Asturias. The app provides a user-friendly platform for tourists and locals to explore events and helps event planners reach a broader audience through modern features such as:
-                </p>
-                <ul className='list-disc list-inside'>
-                  <li>A searchable map of event locations.</li>
-                  <li>Options to save favorite events.</li>
-                  <li>Reviews and information from past attendees.</li>
-                </ul>
-                <p>
-                Ven-T aimed to fill the gap in the market by offering a seamless experience for both users and event organizers.
-                </p>
-                </div>
-                
-                </div>               
-
+                  <h3 className='projectSectionLeft'>Background</h3>
+                  <div className='projectSectionRight'>
+                    <p>Asturias is rich in tradition, music and festivals, but if you don’t know someone local, chances are you’ll miss them. While exploring the area myself, I noticed how hard it was to find current events unless you relied on posters or heard about them through word of mouth.</p>
+                    <p>At the same time, event organizers, especially those running smaller or newer gatherings, lacked the tools to promote their events effectively. Existing platforms were outdated, limited in functionality, or aimed more at ticketed, large-scale shows.</p>
+                    <p>Ven-T emerged from a simple idea: create a centralized, intuitive platform where anyone could discover what was happening around them.</p>
+                  </div>                
+                </div>            
                 <Project4Image 
                  src1='/vent-1.png'
                  alt1='ven-t explore events'
@@ -98,69 +70,48 @@ function Vent() {
 
             {/* Research */}
             <section id="Research" className="space-y-16 pt-24 md:pt-60">
-                <h2>
-                    Research
-                </h2>
+                <h2>Research</h2>
                 <div className='projectSection '>
-                <h3 className='projectSectionLeft'>
-                    User Insights
-                </h3>
+                <h3 className='projectSectionLeft'>User Insights</h3>
                 <div className='projectSectionRight'>
-                <p>
-                Through user interviews, several key patterns emerged:
-                </p>
-                <ul className='list-disc list-inside'>
-                  <li>People often rely on acquaintances or local contacts to learn about traditional events.</li>
-                  <li>Event information is rarely sought online due to unreliable or incomplete results.</li>
-                  <li>Users expressed interest in discovering diverse events beyond traditional parties.</li>
-                </ul>
+                  <p>To understand both sides of the problem, I interviewed potential users, tourists, locals and organizers. Across the board, the patterns were clear:</p>
+                  <ul className='list-disc list-inside'>
+                    <li>Most people learned about events through personal connections or luck.</li>
+                    <li>Searching online wasn’t helpful, information was outdated or scattered.</li>
+                    <li>Users wanted variety: not just big festivals, but cultural events, workshops and gatherings.</li>
+                  </ul>
                 </div>
                 
                 </div>
                 <div className='projectSection'>
-                <h3 className='projectSectionLeft text-wrap'>
-                    Competitive Analysis
-                </h3>
-                <p className='projectSectionRight'>
-                While platforms like Fiestas de Asturias and Pella de Ocio share a similar focus, they lacked essential features like maps or event-saving options. Indirect competitors like Google or Eventbrite provide limited information or are tailored more toward ticketed events. This gap reinforced the need for a modern and localized solution.
-                </p>
+                  <h3 className='projectSectionLeft text-wrap'>Competitive Analysis</h3>
+                  <div className='projectSectionRight'>
+                    <p>I also analyzed local competitors like Fiestas de Asturias and Pella de Ocio, as well as larger discovery platforms like Eventbrite or Google Maps. While the latter offered general event listings, none addressed the specific needs of rural tourism or community-based events in Asturias. Most lacked even basic features like maps, filters, or saved favorites.</p>
+                    <p>This reinforced our opportunity: to create something local, modern and easy to use.</p>
+                  </div>
                 </div>
-                
             </section>
 
             {/* Ideation */}
             <section id="Ideation & Design" className="space-y-8 pt-24 md:pt-60">
-                <h2>
-                    Ideation & Design
-                </h2>
+                <h2>Ideation & Design</h2>
                 <div className='projectSection'>
-                <h3 className='projectSectionLeft'>
-                    Value Proposition
-                </h3>
-                <div className='projectSectionRight'>
-                <p>
-                Ven-T bridges the gap between tourists, locals and event planners by offering a centralized and reliable platform. Key features include:
-                </p>
-                <ul className='list-disc list-inside'>
-                  <li>A map-based interface for exploring events.</li>
-                  <li>Save-to-favorites functionality.</li>
-                  <li>Easy filtering and recommendations based on user behavior.</li>
-                </ul>
-                </div>
+                  <h3 className='projectSectionLeft'>Value Proposition</h3>
+                  <div className='projectSectionRight'>
+                    <p>The core value of Ven-T was clarity and usefulness, for both tourists and event organizers. I focused on three key features:</p>
+                    <ul className='list-disc list-inside'>
+                      <li>A <b>map-based interface</b> to visualize events by proximity</li>
+                      <li>A simple <b>save-to-favorites</b> system</li>
+                      <li>Smart <b>filtering</b> that helped users find events based on time, location, or type</li>
+                    </ul>
+                  </div>
                 
                 </div>
                 <div className='projectSection'>
-                <h3 className='projectSectionLeft'>
-                    Design Process
-                </h3>
-                <div className='projectSectionRight'>
-                <h4>
-                  Feature Prioritization
-                </h4>
-                <p>
-                Using a Feature Prioritization Matrix, essential functionalities were identified to ensure user needs were met without overcomplicating the initial development.
-                </p>
-                </div>
+                  <h3 className='projectSectionLeft'>Prioritazion Features</h3>
+                  <div className='projectSectionRight'>
+                    <p>To keep the MVP realistic, I created a Feature Prioritization Matrix, balancing user needs with technical feasibility. Some initial ideas (like gamified event badges or calendar integrations) were intentionally deferred to keep the scope tight.</p>
+                  </div>
                 </div>
                 
                 
@@ -171,22 +122,10 @@ function Vent() {
                 label='Feature Prioritization Matrix'
                 />
                 <div className='projectSection'>
-                  <h3 className='projectSectionLeft'></h3>
+                  <h3 className='projectSectionLeft'>Sketches to Prototypes</h3>
                   <div className='projectSectionRight'>
-                  <h4>
-                  Wireframe & Prototypes
-                </h4>
-                <p>
-                Early sketches explored multiple layouts and filtering options. Iterative design sessions refined the app’s focus, ensuring a simple and intuitive user experience.
-                </p>
-                <ul className='list-disc list-inside'>
-                  <li>
-                  <b>Initial Prototypes:</b> Early designs included unnecessary features, prioritizing aesthetics over functionality. Feedback and research highlighted the need to streamline the app.
-                  </li>
-                </ul>
-                  
+                    <p>Early sketches explored different layouts and flows, but the first prototypes leaned too much into style over usability. Through testing and feedback, I gradually stripped the UI back, keeping only what helped users navigate quickly and confidently.</p>
                   </div>
-                
                 </div>
                 
                 <ProjectImage
@@ -203,13 +142,10 @@ function Vent() {
                 label='Old prototype screens'
                 />
                 <div className='projectSection'>
-                  <div className='projectSectionLeft'>
+                  <h3 className='projectSectionLeft'>High-Fidelity Design</h3>
+                  <div className='projectSectionRight'>
+                    <p>Once the structure was set, I built a clean, consistent design system using Figma, adaptable for both Android and iOS. I focused on visual clarity and real-world usability.</p>
                   </div>
-                  <ul className='projectSectionRight list-disc list-inside'>
-                    <li>
-                      <b>High-Fidelity Designs:</b> User research informed the final designs, focusing on practical features like filtering, event details and location-based exploration.
-                    </li>
-                  </ul>
                 </div>
                   
                 <ProjectImage
@@ -222,24 +158,13 @@ function Vent() {
 
             {/* launch */}
             <section id="Development & Launch" className="space-y-8 pt-24 md:pt-60">
-                <h2>
-                    Development & Launch
-                </h2>
+                <h2>Development & Launch</h2>
                 <div className='projectSection'>
-                  <h3 className='projectSectionLeft'>
-                    Beta Version
-                  </h3>
+                  <h3 className='projectSectionLeft'>Beta Version</h3>
                   <div className='projectSectionRight'>
-                    <p>
-                    Ven-T&apos;s development began with a focus on replicating the high-fidelity designs as closely as possible while ensuring performance and feasibility. Some design compromises were necessary to optimize speed and usability. <br />
-                    </p>
-                    <p>
-                    The app was successfully developed and made available for download during its beta phase, providing initial users with a seamless way to discover events and gather valuable feedback. <br />
-
-                    </p>
-                    <p>                
-                      <i>Note: Ven-T is no longer available for download, but it represents a completed development cycle with a functional product.</i>
-                    </p>
+                    <p>Using Flutter, I developed the mobile app to match the designs as closely as possible, while optimizing for speed and simplicity. Some design adjustments were made during development to improve load times and offline performance.</p>
+                    <p>A beta version of the app was released for Android and iOS and shared among early testers, who used it during the local spring festival season. Their feedback helped refine event listings, filters and interaction flows.</p>
+                    <p><i>🛈 Note: Ven-T is no longer available for download, but the app completed its full design and development cycle with a working beta version available in both app stores.</i></p>
                   </div>
                 </div>
                 
@@ -248,31 +173,32 @@ function Vent() {
 
             {/* future */}
             <section id="Future Opportunities" className="space-y-8 py-24 md:py-60">
-                <h2>
-                    Future Opportunities
-                </h2>
+                <h2>Future Opportunities</h2>
                 <div className='projectSection'>
-                <h3 className='projectSectionLeft'>
-                    Next Steps
-                </h3>
-                <div className='projectSectionRight'>
-                <ul className='list-disc list-inside'>
-                <li>User behavior-based event recommendations. </li>
-                  <li>Advanced filtering options.</li>
-                  <li>Features like attendee counters and cluster markers for easier navigation.</li>
-                  <li>Social media integration and personalized profiles.</li>
-                  <li>Monetization through event promotions and business advertisements.</li>
-                </ul>
-                  
+                  <h3 className='projectSectionLeft'>Next Steps</h3>
+                  <div className='projectSectionRight'>
+                    <p>While the project paused post-launch, there’s still a roadmap for what could come next:</p>
+                    <ul className='list-disc list-inside'>
+                      <li>Smart event recommendations based on behavior and interest</li>
+                      <li>More advanced filtering (e.g., for accessibility, group size, age suitability)</li>
+                      <li>Attendee counters and cluster markers for busy event areas</li>
+                      <li>Personal profiles and social sharing</li>
+                      <li>Monetization for organizers through promotions or featured listings</li>
+                    </ul>
+                  </div>
+                </div>       
+            </section>
 
-                <p>
-                Ven-T set the foundation for a modern event-discovery experience and its thoughtful design and development serve as a strong example of problem-solving in app design.
-
-                </p>
-                </div>
-                </div>
-                
-                
+            {/* Reflections */}
+            <section id="Reflections" className="space-y-8 py-24 md:py-60">
+                <h2>Reflections</h2>
+                <div className='projectSection'>
+                  <h3 className='projectSectionLeft'></h3>
+                  <div className='projectSectionRight'>
+                    <p>Ven-T taught me how to move a product from idea to execution with clarity and constraint. It was a crash course in balancing what users need with what’s realistic to build, and how to validate assumptions quickly before getting lost in extra features.</p>
+                    <p>It also reinforced how much <b>impact simple, focused design</b> can have, especially in places where digital tools haven’t caught up to the richness of real-world experiences. Sometimes, just helping people <b>know what’s happening around them</b> is enough to bring a town to life.</p>
+                  </div>
+                </div>       
             </section>
         </div>
       </div>

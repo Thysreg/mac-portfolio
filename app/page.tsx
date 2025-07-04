@@ -75,6 +75,7 @@ export default function Home() {
                 chip3='Mobile App'
                 chip4='Prototype'
                 chip5='Test'
+                summary='Connecting Travelers and Locals with Culture'
                 link='/vent'
                 src='/ven-t-mockups-isometric.jpg'
                 alt='ven-t app mockups'
