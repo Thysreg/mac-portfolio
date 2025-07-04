@@ -60,7 +60,7 @@ export default function Home() {
                 chip3='Mobile-First'
                 chip4='Supabase Backend'
                 chip5='UX/UI'
-                summary='Redesigning one of Spain’s most important cultural events to be more accessible, intuitive, and future-proof. '
+                summary='Modernizing Madrid’s Literary Festival'
                 link='/lnl25'
                 src='/figma-lnl-25.png'
                 alt='La Noche de los Libros redesigned website'

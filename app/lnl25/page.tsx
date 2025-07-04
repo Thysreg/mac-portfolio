@@ -51,9 +51,8 @@ function Lnl25() {
                         Background
                     </h3>
                     <div className='projectSectionRight'>
-                        <p>
-                            La Noche de los Libros (The Night of Books) is Madrid&apos;s premier annual literary festival, celebrating literature through author readings, book signings, and cultural performances across the city. As one of Spain&apos;s most significant literary events, it attracts thousands of visitors each year to promote reading and cultural engagement.
-                        </p>
+                        <p> La Noche de los Libros is Madrid’s flagship literary festival, a city-wide celebration that brings authors, readers, bookstores and institutions together every spring. While the festival has evolved, the website hadn’t kept pace. Navigation was confusing, much of the content was hard to find and the mobile experience was almost unusable.</p>
+                        <p>The challenge wasn’t just to modernize the look, but to reimagine the entire experience for the thousands of people who rely on the site each year to discover events, plan routes and explore Madrid through the lens of literature.</p>
                     </div>
                 </div>
                 <div className='projectSection'>
@@ -61,26 +60,14 @@ function Lnl25() {
                         Challenge
                     </h3>
                     <div className='projectSectionRight'>
+                        <p>After reviewing analytics, user feedback and testing the original site across devices, four key problems stood out:</p>
                         <ul className='list-disc list-inside'>
-                            <li>Outdated information architecture with confusing navigation</li>
-                            <li>Non-responsive design sections creating accessibility barriers on mobile devices</li>
-                            <li>Inefficient content discovery for event schedules and locations</li>
-                            <li>Visual design that didn&apos;t reflect the event&apos;s cultural significance</li>
+                            <li>The site structure made it hard to find content, especially event schedules.</li>
+                            <li>The experience broke on mobile, making the majority of traffic struggle to engage.</li>
+                            <li>Visuals didn’t reflect the cultural significance or energy of the event.</li>
+                            <li>Navigation patterns were inconsistent, requiring extra clicks and confusion.</li>
                         </ul>
                     </div>
-                </div>
-                
-                <div className='projectSection'>
-                <h3 className='projectSectionLeft'>
-                    Solution
-                </h3>
-                <div className='projectSectionRight'>
-                <ul className='list-disc list-inside'>
-                    <li><b>Streamlined navigation:</b> Eliminated dropdown menus in favor of direct access to all content</li>
-                    <li><b>Enhanced discovery tools:</b> Implemented combined search and map functionality</li>
-                    <li><b>Mobile-first approach:</b> Completely rebuilt the responsive framework</li>
-                </ul>
-                </div>
                 </div>
                 <ProjectImage
                 className="relative aspect-[1924/1024]"
@@ -101,25 +88,22 @@ function Lnl25() {
                     Objectives
                 </h3>
                 <div className='projectSectionRight'>
+                    <p>To address these issues, I established three main design principles:</p>
                     <ul className='list-disc list-inside'>
-                        <li><b>Accessibility:</b> Ensure all users could easily find and participate in events</li>
-                        <li><b>Cultural Representation:</b> Visually communicate the event&apos;s literary significance</li>
-                        <li><b>Scalability:</b> Create a system that could grow with the event year after year</li>
+                        <li><b>Accessibility:</b> Everyone should be able to find, navigate and attend events with ease.</li>
+                        <li><b>Cultural Representation:</b> The design needed to visually echo the identity of the event: literary, modern and vibrant.</li>
+                        <li><b>Scalability:</b> As the event grows, the platform must grow with it.</li>
                     </ul>
                 </div>
                 </div>
 
                 <div className='projectSection'>
-                <h3 className='projectSectionLeft'>
-                    Homepage
-                </h3>
-                <div className='projectSectionRight'>
-                    <ul className='list-disc list-inside'>
-                        <li>Integrated the thematic video with explanatory content previously buried in secondary pages</li>
-                        <li>Added clear call-to-action elements guiding users to key event information</li>
-                        <li>Implemented a visual hierarchy that emphasizes the event date and essential details</li>
-                    </ul>
-                </div>
+                    <h3 className='projectSectionLeft'>
+                        Homepage
+                    </h3>
+                    <div className='projectSectionRight'>
+                        <p>I started with the homepage, the first impression for most visitors. I integrated the thematic video directly on the landing page to communicate the festival’s tone and message, paired with clear, actionable links. Content that had been buried in inner pages was surfaced prominently and the new layout used a strong visual hierarchy that prioritized date, location and navigation.</p>
+                    </div>
                 </div>
 
                 <ImageSlider
@@ -138,10 +122,7 @@ function Lnl25() {
                         Special Events
                     </h3>
                     <div className='projectSectionRight'>
-                        <ul className='list-disc list-inside'>
-                            <li>Replaced dropdown navigation with persistent location buttons</li>
-                            <li>Standardized activity cards across all sections for consistency</li>
-                        </ul>
+                        <p>Previously hidden behind dropdown menus, special events were redesigned with persistent on-page navigation and consistent visual cards. Each card followed a standard format, making browsing faster and visually coherent across devices and categories.</p>
                     </div>
                 </div>
                 
@@ -161,11 +142,8 @@ function Lnl25() {
                         Activities
                     </h3>
                     <div className='projectSectionRight'>
-                        <ul className='list-disc list-inside'>
-                            <li><b>Interactive Map Integration:</b> Allowed users to visualize event locations geographically</li>
-                            <li><b>Smart Filtering:</b> Combined multiple filter types with real-time results</li>
-                            <li><b>Responsive Cards:</b> Designed activity cards that adapt to various screen sizes</li>
-                        </ul>
+                        <p>The activities section needed to serve two kinds of users: those browsing by theme and those searching by location. To meet both needs, I built a combined filtering and map interaction system. Users could apply filters by genre, format, or venue and see results update in real-time on both the list and the map.</p>
+                        <p>The activity cards were redesigned to be responsive and touch-friendly, with key details like time, location and age groups easily scannable.</p>
                     </div>
                 </div>
 
@@ -189,12 +167,10 @@ function Lnl25() {
                 
                 <div className='projectSection'>
                     <h3 className='projectSectionLeft'>
-                        Press
+                        Press Section
                     </h3>
                     <div className='projectSectionRight'>
-                        <p>
-                            The Prens page was redesigned to improve the user experience by simplifying the layout and making it more visually appealing. The new design features a cleaner, more modern look.
-                        </p>
+                        <p>The press page was restructured for clarity. Instead of a dense list of links, I created a simple, editorial-style layout that made materials easier to find and more appealing to media outlets. This redesign helped increase media coverage ahead of the event.</p>
                     </div>
                 </div>
 
@@ -214,13 +190,7 @@ function Lnl25() {
                         Mobile Experience
                     </h3>
                     <div className='projectSectionRight'>
-                        <p>
-                            With most users accessing the site via mobile devices, we prioritized:
-                        </p>
-                        <ul className='list-disc list-inside'>
-                            <li><b>Navigation:</b> Redesigned the menu system to utilize full-screen overlays for better readability</li>
-                            <li><b>Touch Targets:</b> Ensured all interactive elements met accessibility standards for touch devices</li>
-                        </ul>
+                        <p>Since most traffic came from mobile devices, I prioritized this experience from the start. I redesigned the menu system to use full-screen overlays, making navigation clearer and more accessible. Interactive elements were re-sized and spaced to meet WCAG standards for touch accessibility and every component was tested across common breakpoints.</p>
                     </div>
                 </div>
 
@@ -255,42 +225,24 @@ function Lnl25() {
 
             {/* Development */}
             <section id="Development" className="space-y-8 py-24 md:pt-60">
-                <h2>
-                    Development
-                </h2>
+                <h2>Development</h2>
                 <div className='projectSection'>
-                    <h3 className='projectSectionLeft'>
-                    Approach
-                    </h3>
+                    <h3 className='projectSectionLeft'>Approach</h3>
                     <div className='projectSectionRight'>
-                        <p>
-                            The technical implementation focused on creating a maintainable, high-performance foundation:
-                        </p>
-                        <ul className='list-disc list-inside'>
-                            <li><b>Component-Based Architecture:</b> Built reusable UI components for consistent implementation</li>
-                            <li><b>Progressive Enhancement:</b> Ensured core functionality worked across all browsers</li>
-                            <li><b>Accessibility Compliance:</b> Achieved WCAG 2.1 AA standards throughout</li>
-                            <li><b>Performance Optimization:</b> Implemented lazy loading and asset optimization</li>
-                        </ul>
+                        <p>I developed the front-end with reusable components using semantic HTML, modern CSS and JavaScript. Every element was designed to be accessible, fast and lightweight. Key priorities included performance, clarity and low-maintenance structure.</p>
                     </div>
                 </div>
 
                 <div className='projectSection'>
-                    <h3 className='projectSectionLeft'>
-                    Data Migration
-                    </h3>
+                    <h3 className='projectSectionLeft'>Data Migration</h3>
                     <div className='projectSectionRight'>
-                        <p>
-                            One of the most significant technical improvements was migrating from front-end data storage to a Supabase PostgreSQL database:
-                        </p>
+                        <p>One of the biggest transformations was migrating all event data into a Supabase PostgreSQL backend. This allowed us to:</p>
                         <ul className='list-disc list-inside'>
-                            <li><b>Secure API Layer:</b> Implemented row-level security for controlled data access</li>
-                            <li><b>Efficient Queries:</b> Optimized database queries for fast filtering and sorting</li>
-                            <li><b>Content Management:</b> Enabled non-technical staff to update event details through Supabase&apos;s admin interface</li>
+                            <li>Securely manage event info</li>
+                            <li>Enable efficient filtering and sorting across multiple criteria</li>
+                            <li>Empower non-technical staff to update event content through the admin panel</li>
                         </ul>
-                        <p>
-                            This migration eliminated the need for manual content updates in the codebase and provided a scalable foundation for future growth.
-                        </p>
+                        <p>This shift eliminated the need to hard-code event updates every year and set the foundation for long-term sustainability.</p>
                     </div>
                 </div>
 
@@ -299,18 +251,8 @@ function Lnl25() {
                     Limitations
                     </h3>
                     <div className='projectSectionRight'>
-                        <p>
-                            The project presented unique technical challenges due to being built on Microsoft Expression Web, a deprecated web design tool:
-                        </p>
-                        <ul className='list-disc list-inside'>
-                            <li><b>Legacy Code Constraints:</b> Worked within the limitations of Expression Web&apos;s generated markup while implementing modern design patterns</li>
-                            <li><b>Responsive Workarounds:</b> Developed custom solutions to achieve responsive behaviors not natively supported by the platform</li>
-                            <li><b>Integration Challenges:</b> Created bridges between Expression Web&apos;s framework and modern JavaScript functionality</li>
-                            <li><b>Maintainability:</b> Structured code to be maintainable despite the outdated tooling</li>
-                        </ul>
-                        <p>
-                            These constraints required creative problem-solving to deliver a modern user experience within the legacy framework.
-                        </p>
+                        <p>An unexpected challenge was that part of the legacy website had been built in Microsoft Expression Web, a long-deprecated WYSIWYG editor. I had to reverse-engineer the output, implement responsive patterns manually and find ways to bridge modern JS with its older structure, all without breaking existing dependencies.</p>
+                        <p>While not ideal, working within this constraint forced creative, scrappy problem-solving and ensured the updated experience could launch without a full system overhaul.</p>
                     </div>
                 </div>
 
@@ -323,40 +265,29 @@ function Lnl25() {
                     Results
                 </h2>
                 <div className='projectSection'>
-                    <h3 className='projectSectionLeft'>
-                    Impact
-                    </h3>
+                    <h3 className='projectSectionLeft'>Impact</h3>
                     <div className='projectSectionRight'>
-                        <p>
-                            The redesigned platform successfully addressed the original challenges:
-                        </p>
+                        <p>The redesign was launched ahead of the 2025 edition and immediately improved user engagement and usability across all platforms.</p>
                         <ul className='list-disc list-inside'>
-                            <li>Significant reduction in user-reported navigation issues</li>
-                            <li>Improved engagement metrics across all device types</li>
-                            <li>Positive feedback from both attendees and participating organizations</li>
-                            <li>Increased media coverage due to improved press resources</li>
+                            <li><b>Navigation issues dropped</b> significantly, with fewer support requests from visitors and partners.</li>
+                            <li><b>User engagement improved</b>, especially on mobile, where bounce rates dropped and time-on-site increased.</li>
+                            <li><b>Press coverage increased</b> due to the more navigable, on-brand media section.</li>
+                            <li><b>Internal updates became easier</b>, thanks to the Supabase setup that allowed organizers to manage content without touching code.</li>
                         </ul>
                     </div>
                 </div>
                 <div className='projectSection'>
-                    <h3 className='projectSectionLeft'>
-                    Key Learnings
-                    </h3>
+                    <h3 className='projectSectionLeft'>Key Learnings</h3>
                     <div className='projectSectionRight'>
-                        <p>
-                            This project reinforced several important lessons:
-                        </p>
+                        <p>This project reinforced how much cultural institutions benefit from user-centered design, not just in looks, but in how clearly they communicate and serve their audiences.</p>
+                        <p>Some key takeaways:</p>
                         <ul className='list-disc list-inside'>
                             
-                            <li>The value of user-centered design in cultural event platforms</li>
-                            <li>Migrating to Supabase transformed how content was managed, proving that even small projects benefit from structured backends.
-                            </li>
-                            <li>How to balance innovation with technical constraints</li>
-                            <li>The importance of designing for accessibility from the ground up</li>
+                            <li><b>Structure matters more than style</b>,but both are essential to reflect cultural value.</li>
+                            <li>Even a “small” project benefits from a <b>proper backend</b>, especially when content needs to scale.</li>
+                            <li><b>Accessibility isn’t optional</b>, it improves the experience for everyone, not just edge cases.</li>
+                            <li>Legacy tools shouldn’t stop good UX, they just demand a bit more creativity and patience.</li>
                         </ul>
-                        <p>
-                            Working within the constraints of Expression Web ultimately strengthened our problem-solving skills and demonstrated that excellent user experiences can be achieved even with limited tools.
-                        </p>
                     </div>
                 </div>         
             </section>
